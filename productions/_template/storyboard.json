@@ -1,0 +1,10 @@
+{
+  "slug": "_template",
+  "title": "TODO working title",
+  "format": "short",
+  "scenes": [
+    { "type": "title", "name": "Opening", "durationInSeconds": 3, "kicker": "The Hidden World", "heading": "TODO hook" },
+    { "type": "statement", "name": "Claim 1", "durationInSeconds": 4, "text": "TODO: matches claims.json text", "claimId": "example-claim", "label": "fact" },
+    { "type": "image", "name": "Visual 1", "durationInSeconds": 4, "src": "_template/assets/placeholder.svg", "caption": "TODO caption", "credit": "Placeholder artwork · The Hidden World (original)", "isReconstruction": false }
+  ]
+}

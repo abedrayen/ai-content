@@ -1,0 +1,13 @@
+{
+  "assets": [
+    {
+      "path": "_template/assets/placeholder.svg",
+      "description": "Abstract placeholder landscape",
+      "origin": "Created in-house for The Hidden World",
+      "licence": "Original work, owned by The Hidden World",
+      "commercialUseAllowed": true,
+      "attributionRequired": false,
+      "aiGenerated": false
+    }
+  ]
+}

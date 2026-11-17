@@ -1,0 +1,12 @@
+{
+  "claims": [
+    {
+      "id": "example-claim",
+      "text": "TODO: one factual statement exactly as it will be narrated or shown.",
+      "label": "fact",
+      "sources": [],
+      "verified": false,
+      "notes": "Replace this entry. 'verified' may only be set to true by a person who has read the sources."
+    }
+  ]
+}

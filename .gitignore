@@ -1,0 +1,16 @@
+node_modules/
+dist/
+out/
+.env
+.DS_Store
+# Heavy media lives outside git; track only manifests (assets.json, licences)
+productions/*/assets/**/*.mp4
+productions/*/assets/**/*.mov
+productions/*/assets/**/*.wav
+productions/*/renders/
+# Duplicate skill copies for other agents (Claude uses .claude/skills)
+.agents/
+.aider-desk/
+.codeartsdoer/
+.hermes/
+.zencoder/
