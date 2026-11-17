@@ -2,12 +2,62 @@
   "assets": [
     {
       "path": "carthage-tophet/assets/placeholder.svg",
-      "description": "Abstract placeholder landscape",
+      "description": "Abstract placeholder landscape (template asset, not used in the storyboard)",
       "origin": "Created in-house for The Hidden World",
       "licence": "Original work, owned by The Hidden World",
       "commercialUseAllowed": true,
       "attributionRequired": false,
       "aiGenerated": false
+    },
+    {
+      "path": "carthage-tophet/assets/stela-palm-tanit-lyon.jpg",
+      "description": "Punic limestone stela with inscription, palm and sign of Tanit, Tophet of Carthage, 3rd century BC. Musée des Beaux-Arts de Lyon, inv. 1969-86. Original file, 3744x5616, 2,184,442 bytes, downloaded 2026-11-17.",
+      "origin": "Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Stele_with_palm_and_Tanit_sign-MBA_Lyon_1969-86-IMG_0548.jpg (photo by Rama, own work, 20 April 2011; 'Courtesy of Musée des beaux-arts de Lyon')",
+      "licence": "CC BY-SA 2.0 FR (dual-licensed with CeCILL v2; we elect CC BY-SA 2.0 FR) https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+      "commercialUseAllowed": true,
+      "attributionRequired": true,
+      "attributionText": "\"Stele with palm and Tanit sign – MBA Lyon 1969-86\" — Photograph by Rama, Wikimedia Commons, Cc-by-sa-2.0-fr (https://commons.wikimedia.org/wiki/File:Stele_with_palm_and_Tanit_sign-MBA_Lyon_1969-86-IMG_0548.jpg). Licence: https://creativecommons.org/licenses/by-sa/2.0/fr/. Courtesy of Musée des Beaux-Arts de Lyon. Shown in full; scaled for video, no other changes.",
+      "aiGenerated": false,
+      "title": "Stele with palm and Tanit sign – MBA Lyon 1969-86",
+      "author": "Rama",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stele_with_palm_and_Tanit_sign-MBA_Lyon_1969-86-IMG_0548.jpg",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/legalcode"
+    },
+    {
+      "path": "carthage-tophet/audio/drone-bed.mp3",
+      "description": "Ambient drone music bed, 57 s, about -28 LUFS. Synthesised from sine tones (55, 82.41, 110 Hz) and filtered pink noise with FFmpeg lavfi; no samples or third-party material.",
+      "origin": "Created in-house for The Hidden World on 2026-11-17 (procedural FFmpeg synthesis; recipe in audio/README.md)",
+      "licence": "Original work, owned by The Hidden World",
+      "commercialUseAllowed": true,
+      "attributionRequired": false,
+      "aiGenerated": false
+    },
+    {
+      "path": "carthage-tophet/audio/drone-bed-long.mp3",
+      "description": "Ambient drone music bed for the long-form, 600.96 s, about -28 LUFS, eight 80 s sections (roots A G F A E G F# A) crossfaded over 6 s. Synthesised from sine tones and filtered pink noise; no samples or third-party material.",
+      "origin": "Created in-house for The Hidden World on 2026-11-17 (procedural FFmpeg synthesis; reproducible with audio/make-drone-long.sh)",
+      "licence": "Original work, owned by The Hidden World",
+      "commercialUseAllowed": true,
+      "attributionRequired": false,
+      "aiGenerated": false
+    },
+    {
+      "path": "carthage-tophet/audio/narration-short.mp3",
+      "description": "Synthetic voice-over for the Short (approved script.md text, cut 1 applied). Generated 2026-11-17 with Kokoro-82M, voice bm_george (British English, male), normalised to -15 LUFS / -1.5 dBTP, 48 kHz mono MP3.",
+      "origin": "Generated in-house with Kokoro-82M (hexgrad, Apache-2.0) via video/scripts/tts/generate_vo.py from narration-*.json",
+      "licence": "Original work, owned by The Hidden World (TTS model and voices licensed Apache-2.0; no rights claimed by the model licensor over outputs)",
+      "commercialUseAllowed": true,
+      "attributionRequired": false,
+      "aiGenerated": true
+    },
+    {
+      "path": "carthage-tophet/audio/narration-long.mp3",
+      "description": "Synthetic voice-over for the long-form (script-long.md text). Generated 2026-11-17 with Kokoro-82M, voice bm_george (British English, male), normalised to -15 LUFS / -1.5 dBTP, 48 kHz mono MP3.",
+      "origin": "Generated in-house with Kokoro-82M (hexgrad, Apache-2.0) via video/scripts/tts/generate_vo.py from narration-*.json",
+      "licence": "Original work, owned by The Hidden World (TTS model and voices licensed Apache-2.0; no rights claimed by the model licensor over outputs)",
+      "commercialUseAllowed": true,
+      "attributionRequired": false,
+      "aiGenerated": true
     }
   ]
 }

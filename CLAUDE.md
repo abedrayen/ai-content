@@ -34,7 +34,17 @@ Avoid: generic AI imagery, flashy/excessive transitions, meaningless animation, 
 - MVP: no unnecessary infrastructure or paid services.
 
 ## Repository layout
-- `video/`: Remotion project. `src/brand/tokens.ts` (colours, fonts), `src/scenes/` (TitleCard, Statement, ImageScene, Backdrop, LabelBadge), `src/templates/Documentary.tsx` (one template for both formats, driven by a storyboard), `src/schema/production.ts` (zod schemas shared by the templates and the checker), `scripts/` (new-production, check-production).
+- `video/`: Remotion project.
+  - `src/brand/tokens.ts`: colours, fonts.
+  - `src/scenes/`: Title, Statement, Image, Map, Timeline, Compare, Stat, Source, Diagram and Ledger scenes, plus `anim.ts` (shared reveal timing).
+  - `src/templates/Documentary.tsx`: one template for both formats, driven by a storyboard, with optional narration and music.
+  - `src/templates/Thumbnail.tsx`: the thumbnail still.
+  - `src/schema/production.ts`: zod schemas shared by the templates and the checker.
+  - `scripts/`: new-production, check-production.
+- Maps use Natural Earth (public domain) via `world-atlas`, `d3-geo` and `topojson-client`. Site coordinates come from Pleiades.
+- A production may have several storyboards (`storyboard.json`, `storyboard-long.json`), each with its own `script*.md`.
+- Never set a claim's `verified: true`. Record source review in the claim's `review` field instead.
+- Share-alike images: `"fit": "contain"` (shown whole), as the checker enforces.
 - `productions/<slug>/`: one folder per video, one file per gate. `_template/` is the starting point. This folder is Remotion's public dir.
 - `docs/production-pipeline.md` explains how to use it all. `docs/licences.md` is the toolchain licence register.
 - Commands (run in `video/`): `npm run dev`, `npm run new -- <slug>`, `npm run check -- <slug> [--for publish]`, `npx remotion render Short --props=../productions/<slug>/storyboard.json`.

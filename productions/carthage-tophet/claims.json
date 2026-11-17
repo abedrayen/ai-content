@@ -2,7 +2,7 @@
   "claims": [
     {
       "id": "c01",
-      "text": "Carthage was founded by Phoenician settlers, traditionally in the 9th century BC, and destroyed by Rome in 146 BC.",
+      "text": "Carthage was founded in the 9th century BC on the Gulf of Tunis, in present-day Tunisia; from the 6th century BC it grew into a trading power across much of the Mediterranean, until Rome destroyed it in 146 BC.",
       "label": "fact",
       "sources": [
         {
@@ -18,10 +18,22 @@
           "year": "2014",
           "url": "https://www.babesch.org/new_site/wp-content/uploads/2023/01/BABESCH_Byvanck_Lecture_2014_Stager.pdf",
           "kind": "primary"
+        },
+        {
+          "title": "Archaeological Site of Carthage (WHC ref. 37)",
+          "publisher": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/37/",
+          "kind": "institutional",
+          "accessed": "2026-11-17"
         }
       ],
       "verified": false,
-      "notes": "Register C01 (VERIFIED_FACT). Founding date is traditional; do not state 814 BC as fact."
+      "notes": "Register C01 (VERIFIED_FACT). Founding date is traditional; do not state 814 BC as fact.",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "UNESCO WHC 37: 'Carthage was founded in the 9th century B.C. on the Gulf of Tunis… [Rome] finally destroyed its rival in 146 B.C.' (note: UNESCO's 'Brief synthesis' mistypes '146 AD'). S7 dates the end of Tanit III to 146 BC. UNESCO: \"From the 6th century onwards, it developed into a great trading empire covering much of the Mediterranean.\""
+      }
     },
     {
       "id": "c02",
@@ -33,14 +45,26 @@
           "publisher": "UNESCO World Heritage Centre",
           "url": "https://whc.unesco.org/en/list/37",
           "kind": "institutional"
+        },
+        {
+          "title": "Archaeological Site of Carthage (WHC ref. 37)",
+          "publisher": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/37/",
+          "kind": "institutional",
+          "accessed": "2026-11-17"
         }
       ],
       "verified": false,
-      "notes": "Register C02 (VERIFIED_FACT). UNESCO page not read directly; confirm."
+      "notes": "Register C02 (VERIFIED_FACT). UNESCO page not read directly; confirm.",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "UNESCO WHC 37 page: 'Date of Inscription: 1979'."
+      }
     },
     {
       "id": "c03",
-      "text": "'Tophet' is a modern scholarly name borrowed from the Hebrew Bible, not the Carthaginians' own name for the site.",
+      "text": "Archaeologists call these precincts tophets; the Hebrew Bible uses the same word, Topheth, for a condemned place of child burning near Jerusalem, in the valley of Ben Hinnom.",
       "label": "fact",
       "sources": [
         {
@@ -55,10 +79,24 @@
           "year": "2014",
           "url": "https://www.babesch.org/new_site/wp-content/uploads/2023/01/BABESCH_Byvanck_Lecture_2014_Stager.pdf",
           "kind": "primary"
+        },
+        {
+          "title": "The Levantine Roots of the tophet Sanctuary",
+          "author": "Xella, P.",
+          "publisher": "Journal of Ancient History 11(2) (open access, CC BY 4.0)",
+          "year": "2023",
+          "url": "https://doi.org/10.1515/jah-2023-0015",
+          "kind": "peer-reviewed",
+          "accessed": "2026-11-17"
         }
       ],
       "verified": false,
-      "notes": "Register C03 (VERIFIED_FACT). Punic name of the site not established (gap). Check verse wording."
+      "notes": "Register C03 (VERIFIED_FACT). Punic name of the site not established (gap). Check verse wording.",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "Reworded 2026-11-17 to what the sources state: archaeological use of \"tophet\" (all sources, e.g. Xella 2023 title and §I); biblical Topheth near Jerusalem in the valley of Ben Hinnom (Xella 2023 §III; Jer 7:31; 2 Kgs 23:10). The claim that scholars named it after the Bible, and the Punic names bt/qdš, are NOT asserted (Wikipedia only)."
+      }
     },
     {
       "id": "c04",
@@ -75,7 +113,12 @@
         }
       ],
       "verified": false,
-      "notes": "Register C04 (VERIFIED_FACT). Single detailed account."
+      "notes": "Register C04 (VERIFIED_FACT). Single detailed account.",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "S7 pp. 2-3 ('History of Research'): Gielly, the trafficker removing stelae 'by moonlight', Icard, purchase of c. 1,060 m². Single detailed account."
+      }
     },
     {
       "id": "c05",
@@ -92,7 +135,12 @@
         }
       ],
       "verified": false,
-      "notes": "Register C05 (VERIFIED_FACT)."
+      "notes": "Register C05 (VERIFIED_FACT).",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "S7 p. 5: Kelsey's workers 'in 1925 they extricated 1,000 urns… over a three month dig season'."
+      }
     },
     {
       "id": "c06",
@@ -109,11 +157,16 @@
         }
       ],
       "verified": false,
-      "notes": "Register C06 (VERIFIED_FACT)."
+      "notes": "Register C06 (VERIFIED_FACT).",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "S7 p. 2: the plot 'lay only 50 m. west of… the Commercial Harbor'."
+      }
     },
     {
       "id": "c07",
-      "text": "The precinct was used for roughly six centuries, from around the 8th century BC until 146 BC.",
+      "text": "The precinct was used for roughly six centuries, from around the 8th century BC according to the excavators' dating, until 146 BC.",
       "label": "fact",
       "sources": [
         {
@@ -123,10 +176,24 @@
           "year": "2014",
           "url": "https://www.babesch.org/new_site/wp-content/uploads/2023/01/BABESCH_Byvanck_Lecture_2014_Stager.pdf",
           "kind": "primary"
+        },
+        {
+          "title": "The Levantine Roots of the tophet Sanctuary",
+          "author": "Xella, P.",
+          "publisher": "Journal of Ancient History 11(2) (open access, CC BY 4.0)",
+          "year": "2023",
+          "url": "https://doi.org/10.1515/jah-2023-0015",
+          "kind": "peer-reviewed",
+          "accessed": "2026-11-17"
         }
       ],
       "verified": false,
-      "notes": "Register C07 (VERIFIED_FACT). Start date may vary across the precinct (S18 via S9)."
+      "notes": "Register C07 (VERIFIED_FACT). Start date may vary across the precinct (S18 via S9). Wording corrected per claim-audit.md (approved 2026-11-17).",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "S7 p. 4 (Harden: Tanit I c. 800–600, II c. 600–300, III c. 300–146 BC); Xella 2023 §I: tophets active 'from about the eighth BCE'."
+      }
     },
     {
       "id": "c08",
@@ -155,10 +222,24 @@
           "publisher": "Journal of Ancient History 11(2)",
           "year": "2023",
           "kind": "peer-reviewed"
+        },
+        {
+          "title": "Animals as Offerings: Faunal Remains from the Carthage tophet",
+          "author": "Fulton, D.N., Hesse, P. & Burns, P.",
+          "publisher": "Journal of Ancient History 11(2)",
+          "year": "2023",
+          "url": "https://doi.org/10.1515/jah-2023-0014",
+          "kind": "peer-reviewed",
+          "accessed": "2026-11-17"
         }
       ],
       "verified": false,
-      "notes": "Register C08 (VERIFIED_FACT)."
+      "notes": "Register C08 (VERIFIED_FACT).",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "S7 p. 1 ('very young humans, lambs (or kids), and birds'); Fulton et al. 2023 abstract (ovicaprids, some birds, 'in a very few cases, fish'); S1 abstract."
+      }
     },
     {
       "id": "c09",
@@ -191,11 +272,16 @@
         }
       ],
       "verified": false,
-      "notes": "Register C09 (VERIFIED_FACT). Never narrate counts: published figures conflict."
+      "notes": "Register C09 (VERIFIED_FACT). Never narrate counts: published figures conflict.",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "S1 abstract: remains of very young animals and humans, 'sometimes comingled'; S7 p. 12 (urns with Ovis only and with both)."
+      }
     },
     {
       "id": "c10",
-      "text": "The 1976-79 American excavation recovered several hundred urns from a trench of about 150 square metres.",
+      "text": "The 1976-79 excavation recovered hundreds of urns from a trench of roughly 150 square metres.",
       "label": "fact",
       "sources": [
         {
@@ -224,7 +310,12 @@
         }
       ],
       "verified": false,
-      "notes": "Register C10 (VERIFIED_FACT). No exact total: 444/445/over 200 appear in sources."
+      "notes": "Register C10 (VERIFIED_FACT). No exact total: 444/445/over 200 appear in sources. Wording corrected per claim-audit.md (approved 2026-11-17).",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "S7 fig. 5 caption: 'Our trench (150 m2) yielded 444 cinerary urns' (S7 p. 5 also says 'over 200'; narrate only 'hundreds')."
+      }
     },
     {
       "id": "c11",
@@ -241,7 +332,12 @@
         }
       ],
       "verified": false,
-      "notes": "Register C11 (SCHOLARLY_INTERPRETATION). Extrapolation, not a count, and not a count of sacrifices. S14 not read directly. Recommend omitting."
+      "notes": "Register C11 (SCHOLARLY_INTERPRETATION). Extrapolation, not a count, and not a count of sacrifices. S14 not read directly. Recommend omitting.",
+      "review": {
+        "status": "requires-human-verification",
+        "reviewedOn": "2026-11-17",
+        "evidence": "Known only via a secondary copy of S14; S14 not read. EXCLUDED from narration by editorial decision."
+      }
     },
     {
       "id": "c12",
@@ -258,13 +354,18 @@
         }
       ],
       "verified": false,
-      "notes": "Register C12 (VERIFIED_FACT)."
+      "notes": "Register C12 (VERIFIED_FACT).",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "S7 fig. 16: the ʿEsmun-ḥilleṣ stela, transliteration and translation ('to our lady, to Tanit, the Face of Baʿl, and to our lord, to Baʿl Hammon… because he heard his voice and blessed him'); S7 p. 10: 'On most of the inscribed stelae the word ndr appears, meaning vow'."
+      }
     },
     {
       "id": "c13",
-      "text": "Some tophet inscriptions use the word 'mlk', which many scholars read as a term for a type of offering rather than the name of a god Moloch.",
+      "text": "Some tophet inscriptions use the word 'mlk'. Following Eissfeldt (1935), many scholars, including Xella (2023), read it as a term for a sacrificial offering rather than the name of a god 'Moloch'.",
       "label": "interpretation",
-      "attribution": "Eissfeldt 1935 and later scholars (per Stager 2014)",
+      "attribution": "Eissfeldt 1935; Xella 2023",
       "sources": [
         {
           "title": "Rites of Spring in the Carthaginian Tophet (Eighth BABESCH Byvanck Lecture)",
@@ -273,14 +374,28 @@
           "year": "2014",
           "url": "https://www.babesch.org/new_site/wp-content/uploads/2023/01/BABESCH_Byvanck_Lecture_2014_Stager.pdf",
           "kind": "primary"
+        },
+        {
+          "title": "The Levantine Roots of the tophet Sanctuary",
+          "author": "Xella, P.",
+          "publisher": "Journal of Ancient History 11(2) (open access, CC BY 4.0)",
+          "year": "2023",
+          "url": "https://doi.org/10.1515/jah-2023-0015",
+          "kind": "peer-reviewed",
+          "accessed": "2026-11-17"
         }
       ],
       "verified": false,
-      "notes": "Register C13 (SCHOLARLY_INTERPRETATION). Needs specialist epigraphic check; Eissfeldt 1935 not read."
+      "notes": "Register C13 (SCHOLARLY_INTERPRETATION). Needs specialist epigraphic check; Eissfeldt 1935 not read.",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "Xella 2023 §II: 'the term mlk would have the general sense of sacrificial offering'; §III: 'Eissfeldt's hypothesis linking Punic sacrifice mlk and the biblical lmlk still endures'."
+      }
     },
     {
       "id": "c14",
-      "text": "A minority of urns contained beads and amulets placed after cremation, found only with human remains.",
+      "text": "Amulets were placed in about 31% of the urns studied, and only in urns containing human remains; they were added after cremation.",
       "label": "fact",
       "sources": [
         {
@@ -297,16 +412,30 @@
           "publisher": "Journal of Ancient History 11(2)",
           "year": "2023",
           "kind": "peer-reviewed"
+        },
+        {
+          "title": "The Amulets from the Carthaginian tophet",
+          "author": "Degryse, P. et al.",
+          "publisher": "Journal of Ancient History 11(2)",
+          "year": "2023",
+          "url": "https://doi.org/10.1515/jah-2023-0016",
+          "kind": "peer-reviewed",
+          "accessed": "2026-11-17"
         }
       ],
       "verified": false,
-      "notes": "Register C14 (VERIFIED_FACT). Proportion depends on denominator (S9)."
+      "notes": "Register C14 (VERIFIED_FACT). Proportion depends on denominator (S9). Wording corrected per claim-audit.md (approved 2026-11-17).",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "Degryse et al. 2023 abstract: 'Amulets were added in only 31 % of the urns studied, exclusively to urns containing human remains'; S7 p. 12: added after cremation (necklaces 'never showed traces of burning')."
+      }
     },
     {
       "id": "c15",
-      "text": "A 4th-century BC stela shows a priest holding an infant; scholars disagree whether the child is alive (prepared for sacrifice) or already dead.",
+      "text": "A stela from the tophet shows a priest holding an infant. Stager reads it as preparation for a sacrifice; Schwartz et al. describe the infant as inanimate, i.e. already dead.",
       "label": "interpretation",
-      "attribution": "Stager 2014 (living child) vs Schwartz et al. 2012 (already dead)",
+      "attribution": "Stager 2014 (living child) vs Schwartz et al. 2017 (deceased infant)",
       "sources": [
         {
           "title": "Rites of Spring in the Carthaginian Tophet (Eighth BABESCH Byvanck Lecture)",
@@ -315,10 +444,23 @@
           "year": "2014",
           "url": "https://www.babesch.org/new_site/wp-content/uploads/2023/01/BABESCH_Byvanck_Lecture_2014_Stager.pdf",
           "kind": "primary"
+        },
+        {
+          "title": "Two tales of one city: data, inference and Carthaginian infant sacrifice",
+          "author": "Schwartz, Houghton, Bondioli & Macchiarelli",
+          "publisher": "Antiquity 91(356): 442-454",
+          "year": "2017",
+          "url": "https://doi.org/10.15184/aqy.2016.270",
+          "kind": "peer-reviewed"
         }
       ],
       "verified": false,
-      "notes": "Register C15 (SCHOLARLY_INTERPRETATION)."
+      "notes": "Register C15 (SCHOLARLY_INTERPRETATION).",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "S7 fig. 29 ('apparently in preparation for a sacrificial offering'); Schwartz et al. 2017 (verbatim): 'the adult holds an inanimate (deceased, perhaps cloaked) infant'."
+      }
     },
     {
       "id": "c16",
@@ -335,7 +477,12 @@
         }
       ],
       "verified": false,
-      "notes": "Register C16 (VERIFIED_FACT). Fact about the text only; the event is unverified."
+      "notes": "Register C16 (VERIFIED_FACT). Fact about the text only; the event is unverified.",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "S12 Loeb 20.14.4–6, read in full."
+      }
     },
     {
       "id": "c17",
@@ -352,11 +499,16 @@
         }
       ],
       "verified": false,
-      "notes": "Register C17 (VERIFIED_FACT). Fact about the text only; moral essay written long after Carthage's fall."
+      "notes": "Register C17 (VERIFIED_FACT). Fact about the text only; moral essay written long after Carthage's fall.",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "S13 Loeb Moralia II, ch. 13, read in full."
+      }
     },
     {
       "id": "c18",
-      "text": "The surviving accounts of Carthaginian child sacrifice were written by Greek and Roman authors, not by Carthaginians.",
+      "text": "The surviving accounts of Carthaginian child sacrifice examined here were written by Greek authors, not by Carthaginians.",
       "label": "fact",
       "sources": [
         {
@@ -393,11 +545,16 @@
         }
       ],
       "verified": false,
-      "notes": "Register C18 (VERIFIED_FACT)."
+      "notes": "Register C18 (VERIFIED_FACT). Wording corrected per claim-audit.md (approved 2026-11-17).",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "Diodorus (S12), Plutarch (S13) and Kleitarchos (named in S1 abstract) are Greek authors; none Carthaginian."
+      }
     },
     {
       "id": "c19",
-      "text": "Tophets are known at Phoenician and Punic sites in North Africa, Sicily and Sardinia, but no convincing example is known in the Phoenician homeland.",
+      "text": "Tophet precincts are attested across the central Mediterranean (North Africa, Sardinia, Sicily and perhaps Malta) but so far lack convincing archaeological evidence in the Phoenician homeland and the far western Mediterranean.",
       "label": "fact",
       "sources": [
         {
@@ -418,7 +575,12 @@
         }
       ],
       "verified": false,
-      "notes": "Register C19 (VERIFIED_FACT). Based on S10 abstract and S7 map."
+      "notes": "Register C19 (VERIFIED_FACT). Based on S10 abstract and S7 map.",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "Xella 2023 abstract (open access): tophets 'attested throughout the central Mediterranean (north Africa, Sardinia and Sicily, and perhaps Malta), up to this point lack convincing archaeological evidence in the Phoenician motherland and the far western Mediterranean'."
+      }
     },
     {
       "id": "c20",
@@ -432,14 +594,27 @@
           "year": "2023",
           "url": "https://doi.org/10.1515/jah-2023-0015",
           "kind": "peer-reviewed"
+        },
+        {
+          "title": "Review of Garnand & Greene (eds), Infants as votive offerings (Journal of Ancient History 11.2)",
+          "author": "McCarty, M.M.",
+          "publisher": "Bryn Mawr Classical Review 2024.09.08",
+          "year": "2024",
+          "url": "https://bmcr.brynmawr.edu/?p=92573",
+          "kind": "peer-reviewed"
         }
       ],
       "verified": false,
-      "notes": "Register C20 (UNRESOLVED_QUESTION)."
+      "notes": "Register C20 (UNRESOLVED_QUESTION).",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "Xella 2023 abstract argues a Tyrian origin, while noting absence of eastern evidence; S9 summarises the same. The question remains open."
+      }
     },
     {
       "id": "c21",
-      "text": "Two teams of specialists analysed cremated remains from the same 1976-79 excavations and reached opposite conclusions.",
+      "text": "Two teams of specialists analysed cremated remains from largely the same 1976-79 excavated collection and reached conflicting conclusions about how the infants died.",
       "label": "fact",
       "sources": [
         {
@@ -468,11 +643,16 @@
         }
       ],
       "verified": false,
-      "notes": "Register C21 (VERIFIED_FACT)."
+      "notes": "Register C21 (VERIFIED_FACT). Wording corrected per claim-audit.md (approved 2026-11-17).",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "S4 extract: 'Both studies were carried out on the same sample' (Smith 334 urns, Schwartz 348)."
+      }
     },
     {
       "id": "c22",
-      "text": "Schwartz and colleagues argue the infants' age profile matches natural perinatal mortality and that tophets were burial places for those who died shortly before or after birth, without ruling out occasional sacrifice.",
+      "text": "Schwartz and colleagues found most individuals were between late fetal and about six months old, with many prenatal; they argue this matches natural perinatal mortality and that tophets were cemeteries for those who died shortly before or after birth, whatever the cause, while acknowledging the Carthaginians may occasionally have sacrificed humans.",
       "label": "interpretation",
       "attribution": "Schwartz et al. 2010, 2012, 2017",
       "sources": [
@@ -502,7 +682,12 @@
         }
       ],
       "verified": false,
-      "notes": "Register C22 (SCHOLARLY_INTERPRETATION)."
+      "notes": "Register C22 (SCHOLARLY_INTERPRETATION). Wording corrected per claim-audit.md (approved 2026-11-17).",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "S1 abstract (read in full): most 'prenatal to 5-to-6 postnatal months, with a significant presence of prenates'; 'consistent with modern-day data on perinatal mortality'; 'Tophets were cemeteries for those who died shortly before or after birth, regardless of the cause'; framed as compatible with Carthaginians having 'occasionally sacrificed humans'. S3 extract: 'at best, not proven'."
+      }
     },
     {
       "id": "c23",
@@ -536,7 +721,12 @@
         }
       ],
       "verified": false,
-      "notes": "Register C23 (SCHOLARLY_INTERPRETATION)."
+      "notes": "Register C23 (SCHOLARLY_INTERPRETATION).",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "S2 extract: 'the majority of the infants died between one and one and a half months… Sacrifice was thus very probable'; S4 extract: distribution 'supports our contention of infant sacrifice'."
+      }
     },
     {
       "id": "c24",
@@ -569,11 +759,16 @@
         }
       ],
       "verified": false,
-      "notes": "Register C24 (VERIFIED_FACT)."
+      "notes": "Register C24 (VERIFIED_FACT).",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "S1 Methods (heat-shrinkage test up to 25%); S6 abstract (responds to Smith et al.'s ageing criticisms); S7 p. 11 (Smith: cremation can obliterate the neonatal line; shrinkage under-corrected)."
+      }
     },
     {
       "id": "c25",
-      "text": "Schwartz et al. found a neonatal line, which forms only if a baby survives birth by some days, in 24 of 50 individuals sampled.",
+      "text": "A neonatal line forms in tooth enamel only if a baby survives at least about one to two weeks after birth; Schwartz et al. found it in 24 of 50 individuals sampled, while Smith et al. argue cremation can erase it.",
       "label": "fact",
       "sources": [
         {
@@ -594,7 +789,12 @@
         }
       ],
       "verified": false,
-      "notes": "Register C25 (VERIFIED_FACT). Interpretation disputed: cremation may erase the line."
+      "notes": "Register C25 (VERIFIED_FACT). Interpretation disputed: cremation may erase the line. Wording corrected per claim-audit.md (approved 2026-11-17).",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "S1 Methods: NL 'observable in individuals who survive at least 7 to 10–15 days ex utero'; found in 24 of 50. S6: 'In the 24 crowns with NLs, enamel thickness indicated survival of at least two weeks'."
+      }
     },
     {
       "id": "c26",
@@ -612,13 +812,18 @@
         }
       ],
       "verified": false,
-      "notes": "Register C26 (SCHOLARLY_INTERPRETATION)."
+      "notes": "Register C26 (SCHOLARLY_INTERPRETATION).",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "S7 pp. 9–10: vows (ndr) fulfilled 'because he heard his voice and blessed him'; offering a stillborn as a votive 'appears to me quite absurd'."
+      }
     },
     {
       "id": "c27",
-      "text": "Because lambs were treated like infants, sometimes on the same pyre, some scholars argue animals and infants were equivalent offerings.",
+      "text": "Fulton and colleagues identify the animals as whole-burnt offerings sacrificed to the deity; because lambs were treated like the infants, sometimes in the same urn, Stager argues infants and animals were equivalent offerings.",
       "label": "interpretation",
-      "attribution": "Stager 2014; Fulton et al. 2023",
+      "attribution": "Fulton et al. 2023; Stager 2014",
       "sources": [
         {
           "title": "Rites of Spring in the Carthaginian Tophet (Eighth BABESCH Byvanck Lecture)",
@@ -634,10 +839,24 @@
           "publisher": "Journal of Ancient History 11(2)",
           "year": "2023",
           "kind": "peer-reviewed"
+        },
+        {
+          "title": "Animals as Offerings: Faunal Remains from the Carthage tophet",
+          "author": "Fulton, D.N., Hesse, P. & Burns, P.",
+          "publisher": "Journal of Ancient History 11(2)",
+          "year": "2023",
+          "url": "https://doi.org/10.1515/jah-2023-0014",
+          "kind": "peer-reviewed",
+          "accessed": "2026-11-17"
         }
       ],
       "verified": false,
-      "notes": "Register C27 (SCHOLARLY_INTERPRETATION). Also compatible with an animal offering accompanying a natural death."
+      "notes": "Register C27 (SCHOLARLY_INTERPRETATION). Also compatible with an animal offering accompanying a natural death. Wording corrected per claim-audit.md (approved 2026-11-17).",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "Fulton et al. 2023 abstract: 'Overwhelmingly, the animals are whole-burnt offerings, sacrificed as an offering to the deity'; S7 p. 12: identical burial practice for humans and animals, human and lamb remains in the same urns."
+      }
     },
     {
       "id": "c28",
@@ -659,14 +878,27 @@
           "year": "2017",
           "url": "https://doi.org/10.15184/aqy.2016.270",
           "kind": "peer-reviewed"
+        },
+        {
+          "title": "Skeletal remains from Punic Carthage do not support systematic sacrifice of infants",
+          "author": "Schwartz, Houghton, Macchiarelli & Bondioli",
+          "publisher": "PLoS ONE 5(2): e9177",
+          "year": "2010",
+          "url": "https://doi.org/10.1371/journal.pone.0009177",
+          "kind": "peer-reviewed"
         }
       ],
       "verified": false,
-      "notes": "Register C28 (VERIFIED_FACT)."
+      "notes": "Register C28 (VERIFIED_FACT).",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "S1 abstract: 'the absence of the youngest humans at the primary cemeteries is unusual'; S7 p. 8 (citing Bénichou-Safar 1982)."
+      }
     },
     {
       "id": "c29",
-      "text": "A 2024 independent review concluded the interpretation of the Carthage tophet remains as uncertain as ever; the final report of the 1970s excavations is unpublished.",
+      "text": "In a 2024 review of the latest specialist volume, the reviewer judged the interpretation of the Carthage tophet still uncertain; the final report of the 1976-79 excavation remains unpublished.",
       "label": "fact",
       "sources": [
         {
@@ -687,7 +919,12 @@
         }
       ],
       "verified": false,
-      "notes": "Register C29 (VERIFIED_FACT)."
+      "notes": "Register C29 (VERIFIED_FACT). Wording corrected per claim-audit.md (approved 2026-11-17).",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "S9 (BMCR 2024.09.08), read in full: interpretation 'remains as uncertain as ever'; final ASOR report still absent."
+      }
     },
     {
       "id": "c30",
@@ -704,7 +941,12 @@
         }
       ],
       "verified": false,
-      "notes": "Register C30 (VERIFIED_FACT). Applies to Zita, not Carthage."
+      "notes": "Register C30 (VERIFIED_FACT). Applies to Zita, not Carthage.",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "S8 abstract and discussion, read directly (open access)."
+      }
     },
     {
       "id": "c31",
@@ -721,7 +963,12 @@
         }
       ],
       "verified": false,
-      "notes": "Register C31 (HYPOTHESIS)."
+      "notes": "Register C31 (HYPOTHESIS).",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "S7 pp. 12–13 (spring lambs; periodic offerings)."
+      }
     },
     {
       "id": "c32",
@@ -762,7 +1009,12 @@
         }
       ],
       "verified": false,
-      "notes": "Register C32 (UNRESOLVED_QUESTION)."
+      "notes": "Register C32 (UNRESOLVED_QUESTION).",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "Published exchange 2010–2017 (S1–S6) unresolved; S9 (2024): 'uncertain'. Frame as unresolved, not as evenly split."
+      }
     },
     {
       "id": "c33",
@@ -787,7 +1039,181 @@
         }
       ],
       "verified": false,
-      "notes": "Register C33 (UNRESOLVED_QUESTION)."
+      "notes": "Register C33 (UNRESOLVED_QUESTION).",
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "S7 (periodic spring rite, hypothesis) vs S12 (crisis sacrifice in 310 BC)."
+      }
+    },
+    {
+      "id": "c34",
+      "text": "The stela shown in segment 3 (Musee des Beaux-Arts de Lyon, inv. 1969-86) is a limestone stela from the Carthage tophet dated to the 3rd century BC.",
+      "label": "fact",
+      "sources": [
+        {
+          "title": "File:Stele with palm and Tanit sign-MBA Lyon 1969-86-IMG 0548.jpg (object data from the museum record)",
+          "publisher": "Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Stele_with_palm_and_Tanit_sign-MBA_Lyon_1969-86-IMG_0548.jpg",
+          "kind": "other"
+        }
+      ],
+      "verified": false,
+      "notes": "On-screen caption of image scene 3. Source is the Commons record; confirm against the Musee des Beaux-Arts de Lyon catalogue before sign-off. The inscription content is NOT established and must not be implied.",
+      "review": {
+        "status": "requires-human-verification",
+        "reviewedOn": "2026-11-17",
+        "evidence": "Commons record (museum data) only; Musée des Beaux-Arts de Lyon catalogue not consulted."
+      }
+    },
+    {
+      "id": "c35",
+      "text": "Carthage was a Phoenician foundation linked to Tyre; tradition names Elissa (Dido), a princess of Tyre, as its founder.",
+      "label": "fact",
+      "sources": [
+        {
+          "title": "Archaeological Site of Carthage (WHC ref. 37)",
+          "publisher": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/37/",
+          "kind": "institutional",
+          "accessed": "2026-11-17"
+        }
+      ],
+      "verified": false,
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "UNESCO WHC 37: 'Phoenician foundation linked to Tyre'; 'the legendary princess of Tyre, Elyssa-Dido, founder of the town'. Narrate the founder as legend/tradition only."
+      }
+    },
+    {
+      "id": "c36",
+      "text": "Tophet precincts were in use from about the 8th century BC until the 2nd or 3rd century AD.",
+      "label": "fact",
+      "sources": [
+        {
+          "title": "The Levantine Roots of the tophet Sanctuary",
+          "author": "Xella, P.",
+          "publisher": "Journal of Ancient History 11(2) (open access, CC BY 4.0)",
+          "year": "2023",
+          "url": "https://doi.org/10.1515/jah-2023-0015",
+          "kind": "peer-reviewed",
+          "accessed": "2026-11-17"
+        }
+      ],
+      "verified": false,
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "Xella 2023 §I: 'remained active from about the eighth BCE to the second/third centuries CE'."
+      }
+    },
+    {
+      "id": "c37",
+      "text": "Tunisian-led excavations in the precinct since 2014 aim to publish urns and stelae with precisely dated contexts for the first time.",
+      "label": "fact",
+      "sources": [
+        {
+          "title": "New Excavations in the Sanctuary of Ba'l Hammon in Carthage",
+          "author": "Ben Jerbania, I. et al.",
+          "publisher": "Journal of Ancient History 11(2)",
+          "year": "2023",
+          "url": "https://doi.org/10.1515/jah-2023-0021",
+          "kind": "peer-reviewed",
+          "accessed": "2026-11-17"
+        }
+      ],
+      "verified": false,
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "Ben Jerbania et al. 2023 abstract: excavations 'undertaken since 2014'; materials 'will be published with precisely dated archaeological contexts for the first time'."
+      }
+    },
+    {
+      "id": "c38",
+      "text": "In their 2017 reply, Schwartz and colleagues reported that 24% of the individuals in their sample were prenatal, 15% peri- or neonatal and 17% under one month old.",
+      "label": "interpretation",
+      "attribution": "Schwartz et al. 2017",
+      "sources": [
+        {
+          "title": "Two tales of one city: data, inference and Carthaginian infant sacrifice",
+          "author": "Schwartz, Houghton, Bondioli & Macchiarelli",
+          "publisher": "Antiquity 91(356): 442-454",
+          "year": "2017",
+          "url": "https://doi.org/10.15184/aqy.2016.270",
+          "kind": "peer-reviewed"
+        }
+      ],
+      "verified": false,
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "S6 (verbatim): 'we concluded that 24% were prenatal, 15% peri-/neonatal, and 17% less than 1 month of age'."
+      }
+    },
+    {
+      "id": "c39",
+      "text": "Schwartz and colleagues note that the sacrifice interpretation rests partly on two ancient Greek accounts, by Kleitarchos (3rd century BC) and Diodorus (1st century BC), which they call 'supposed eye-witness reports'.",
+      "label": "interpretation",
+      "attribution": "Schwartz et al. 2010",
+      "sources": [
+        {
+          "title": "Skeletal remains from Punic Carthage do not support systematic sacrifice of infants",
+          "author": "Schwartz, Houghton, Macchiarelli & Bondioli",
+          "publisher": "PLoS ONE 5(2): e9177",
+          "year": "2010",
+          "url": "https://doi.org/10.1371/journal.pone.0009177",
+          "kind": "peer-reviewed"
+        }
+      ],
+      "verified": false,
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "S1 abstract (verbatim): 'two supposed eye-witness reports of large-scale Carthaginian infant sacrifice [Kleitarchos (3rd c. BCE) and Diodorus Siculus (1st c. BCE)]'."
+      }
+    },
+    {
+      "id": "c40",
+      "text": "The skeletal case for or against sacrifice depends largely on the infants age profile, which has to be estimated from small, fire-damaged fragments.",
+      "label": "fact",
+      "sources": [
+        {
+          "title": "Aging cremated infants: the problem of sacrifice at the Tophet of Carthage",
+          "author": "Smith, Avishai, Greene & Stager",
+          "publisher": "Antiquity 85(329): 859-874",
+          "year": "2011",
+          "url": "https://doi.org/10.1017/S0003598X00068368",
+          "kind": "peer-reviewed"
+        }
+      ],
+      "verified": false,
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "S2 extract: the argument for infant sacrifice \"depends largely on a skewed age profile, and age is not easy to determine\"; S1 methods: ages estimated from cremated cranial and pelvic elements and teeth."
+      }
+    },
+    {
+      "id": "c41",
+      "text": "Tyre lies about 2,300 km east of Carthage (great-circle distance).",
+      "label": "fact",
+      "sources": [
+        {
+          "title": "Pleiades: Carthago (314921) and Tyrus/Col. Septimia Severa (678437)",
+          "publisher": "Pleiades gazetteer of ancient places",
+          "url": "https://pleiades.stoa.org/places/314921",
+          "kind": "institutional",
+          "accessed": "2026-11-17"
+        }
+      ],
+      "verified": false,
+      "review": {
+        "status": "verified-by-source-review",
+        "reviewedOn": "2026-11-17",
+        "evidence": "Computed with d3-geo geoDistance from Pleiades representative points: Carthago [10.3231, 36.8531], Tyrus [35.2018, 33.2693] → 2,292 km. Rounded to about 2,300 km."
+      }
     }
   ]
 }

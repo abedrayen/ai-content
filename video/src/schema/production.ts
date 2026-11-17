@@ -47,6 +47,23 @@ export const claim = z
     /** Set to true only by a human who has checked the sources support the claim. */
     verified: z.boolean(),
     notes: z.string().optional(),
+    /**
+     * Researcher's source review (may be done by Claude). Never implies human
+     * sign-off: only `verified` does.
+     */
+    review: z
+      .object({
+        status: z.enum([
+          "verified-by-source-review",
+          "partially-supported",
+          "disputed",
+          "unsupported",
+          "requires-human-verification",
+        ]),
+        reviewedOn: z.string(),
+        evidence: z.string(),
+      })
+      .optional(),
   })
   .refine((c) => !needsAttribution(c.label, c.attribution), {
     message: "interpretation claims need an attribution",
@@ -67,6 +84,11 @@ export const asset = z.object({
   attributionRequired: z.boolean(),
   attributionText: z.string().optional(),
   aiGenerated: z.boolean(),
+  // Attribution metadata (TASL). The checker requires all four when attributionRequired.
+  title: z.string().optional(),
+  author: z.string().optional(),
+  sourceUrl: z.string().optional(),
+  licenceUrl: z.string().optional(),
 });
 
 export const assetsFile = z.object({ assets: z.array(asset) });
@@ -107,10 +129,133 @@ export const imageScene = z.object({
   credit: z.string().min(1),
   /** AI or artistic reconstruction: always badged, never passed off as archival. */
   isReconstruction: z.boolean(),
+  /**
+   * "cover" (default): full-bleed, cropped, slow push-in, text over the image.
+   * "contain": the whole image, unmodified, text placed outside it. Required
+   * for share-alike assets (see licensing-audit.md).
+   */
+  fit: z.enum(["cover", "contain"]).optional(),
 });
 
-export const scene = z.discriminatedUnion("type", [titleScene, statementScene, imageScene]);
+// ---------- animated explanatory scenes ----------
+// `claimIds` link a scene's on-screen facts to claims.json (checked by the checker).
+const claimIds = z.array(z.string()).optional();
+const lonLat = z.tuple([z.number(), z.number()]);
+
+/** Animated Natural Earth map: camera move, sequential markers, optional great-circle arcs. */
+export const mapScene = z.object({
+  ...base,
+  type: z.literal("map"),
+  title: z.string().optional(),
+  view: z.object({
+    from: z.object({ center: lonLat, scale: z.number().positive() }),
+    to: z.object({ center: lonLat, scale: z.number().positive() }),
+  }),
+  markers: z.array(
+    z.object({
+      label: z.string(),
+      at: lonLat,
+      appearAt: z.number().min(0),
+      kind: z.enum(["primary", "site", "uncertain"]),
+    }),
+  ),
+  arcs: z.array(z.object({ from: lonLat, to: lonLat, label: z.string().optional(), appearAt: z.number().min(0) })).optional(),
+  note: z.string().optional(),
+  claimIds,
+});
+
+/** Timeline that draws itself and reveals events in order. */
+export const timelineScene = z.object({
+  ...base,
+  type: z.literal("timeline"),
+  title: z.string().optional(),
+  events: z.array(z.object({ date: z.string(), label: z.string(), claimId: z.string().optional() })).min(2).max(7),
+  claimIds,
+});
+
+const compareSide = z.object({
+  heading: z.string(),
+  claimId: z.string(),
+  attribution: z.string(),
+  points: z.array(z.string()).min(1).max(4),
+});
+
+/** Two attributed interpretations side by side, with identical layout and timing. */
+export const compareScene = z.object({
+  ...base,
+  type: z.literal("compare"),
+  title: z.string().optional(),
+  left: compareSide,
+  right: compareSide,
+  footer: z.string().optional(),
+  /** Extra claims behind individual points (beyond each side's main claimId). */
+  claimIds,
+});
+
+/** One number or short fact, with motion emphasis. */
+export const statScene = z.object({
+  ...base,
+  type: z.literal("stat"),
+  value: z.string(),
+  /** Numeric part to count up to (optional); `value` is shown when the count completes. */
+  countTo: z.number().optional(),
+  label: z.string(),
+  sourceNote: z.string().optional(),
+  claimId: z.string(),
+});
+
+/** An ancient written source, presented as a text, never as an event. */
+export const sourceScene = z.object({
+  ...base,
+  type: z.literal("source"),
+  author: z.string(),
+  work: z.string(),
+  written: z.string(),
+  text: z.string(),
+  gap: z.string().optional(),
+  claimId: z.string(),
+});
+
+/** Simplified explanatory diagrams. Always labelled as schematic. */
+export const diagramScene = z.object({
+  ...base,
+  type: z.literal("diagram"),
+  variant: z.enum(["neonatal-line", "shrinkage"]),
+  caption: z.string(),
+  claimIds,
+});
+
+/** Two columns built line by line (e.g. "shows" vs "cannot show"). */
+export const ledgerScene = z.object({
+  ...base,
+  type: z.literal("ledger"),
+  leftHeading: z.string(),
+  rightHeading: z.string(),
+  left: z.array(z.string()).min(1).max(4),
+  right: z.array(z.string()).min(1).max(4),
+  claimIds,
+});
+
+export const scene = z.discriminatedUnion("type", [
+  titleScene,
+  statementScene,
+  imageScene,
+  mapScene,
+  timelineScene,
+  compareScene,
+  statScene,
+  sourceScene,
+  diagramScene,
+  ledgerScene,
+]);
 export type Scene = z.infer<typeof scene>;
+
+/** An audio file relative to productions/, registered in assets.json like any asset. */
+export const audioTrack = z.object({
+  src: z.string().min(1),
+  /** 0–1. Music under narration is typically 0.15–0.3. */
+  volume: z.number().min(0).max(1),
+});
 
 export const storyboard = z
   .object({
@@ -118,6 +263,13 @@ export const storyboard = z
     title: z.string().min(1),
     format: z.enum(["short", "long"]),
     scenes: z.array(scene).min(1),
+    /** Optional. Both tracks start at frame 0; the music fades out over the last 2 s. */
+    audio: z
+      .object({
+        narration: audioTrack.optional(),
+        music: audioTrack.optional(),
+      })
+      .optional(),
   })
   .superRefine((sb, ctx) => {
     sb.scenes.forEach((s, i) => {

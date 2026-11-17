@@ -14,3 +14,6 @@ productions/*/renders/
 .codeartsdoer/
 .hermes/
 .zencoder/
+
+# Raw narration takes / intermediate WAVs (large). Final narration is MP3.
+productions/*/audio/*.wav

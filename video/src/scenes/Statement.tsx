@@ -68,9 +68,10 @@ export const Statement: React.FC<Props> = ({ text, label, attribution, sourceNot
           <div
             style={{
               fontFamily: fonts.sans,
-              fontSize: 28 * s,
+              fontSize: 34 * s,
               color: colors.mist,
               opacity: noteFade,
+              textWrap: "balance",
             }}
           >
             {sourceNote}

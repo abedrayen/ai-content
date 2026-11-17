@@ -1,0 +1,573 @@
+{
+  "slug": "carthage-tophet",
+  "title": "Carthage's Tophet: Burial Ground or Place of Sacrifice?",
+  "format": "long",
+  "audio": {
+    "music": {
+      "src": "carthage-tophet/audio/drone-bed-long.mp3",
+      "volume": 0.84
+    },
+    "narration": {
+      "src": "carthage-tophet/audio/narration-long.mp3",
+      "volume": 0.84
+    }
+  },
+  "scenes": [
+    {
+      "type": "title",
+      "name": "1a Cold open: 1921",
+      "durationInSeconds": 13.9,
+      "kicker": "Tunis · December 1921",
+      "heading": "Someone was digging up carved stones by moonlight."
+    },
+    {
+      "type": "statement",
+      "name": "1b Urns",
+      "durationInSeconds": 12.4,
+      "text": "Urn after urn of burnt bones: of infants, and of young lambs.",
+      "claimId": "c08",
+      "label": "fact"
+    },
+    {
+      "type": "statement",
+      "name": "1c Two teams",
+      "durationInSeconds": 8.1,
+      "text": "Two teams. The same remains. Conflicting conclusions.",
+      "claimId": "c21",
+      "label": "fact"
+    },
+    {
+      "type": "statement",
+      "name": "1d The question",
+      "durationInSeconds": 6.9,
+      "text": "Offered to the gods, or mourned?",
+      "claimId": "c32",
+      "label": "open-question"
+    },
+    {
+      "type": "title",
+      "name": "1e Title",
+      "durationInSeconds": 4.5,
+      "kicker": "The Hidden World",
+      "heading": "Carthage's Tophet: Burial Ground or Place of Sacrifice?"
+    },
+    {
+      "type": "map",
+      "name": "2a From Tyre to Carthage",
+      "durationInSeconds": 14.7,
+      "title": "A Phoenician city, linked to Tyre",
+      "view": {
+        "from": {
+          "center": [
+            22,
+            37
+          ],
+          "scale": 2300
+        },
+        "to": {
+          "center": [
+            21,
+            36.2
+          ],
+          "scale": 2650
+        }
+      },
+      "markers": [
+        {
+          "label": "Tyre",
+          "at": [
+            35.201829,
+            33.2693355
+          ],
+          "appearAt": 1.5,
+          "kind": "site"
+        },
+        {
+          "label": "Carthage",
+          "at": [
+            10.323056,
+            36.853056
+          ],
+          "appearAt": 6.5,
+          "kind": "primary"
+        }
+      ],
+      "arcs": [
+        {
+          "from": [
+            35.201829,
+            33.2693355
+          ],
+          "to": [
+            10.323056,
+            36.853056
+          ],
+          "label": "≈ 2,300 km",
+          "appearAt": 3.5
+        }
+      ],
+      "claimIds": [
+        "c35",
+        "c41"
+      ]
+    },
+    {
+      "type": "map",
+      "name": "2b Gulf of Tunis",
+      "durationInSeconds": 6,
+      "title": "On the Gulf of Tunis",
+      "view": {
+        "from": {
+          "center": [
+            21,
+            36.2
+          ],
+          "scale": 2650
+        },
+        "to": {
+          "center": [
+            10.2,
+            36.9
+          ],
+          "scale": 26000
+        }
+      },
+      "markers": [
+        {
+          "label": "Carthage",
+          "at": [
+            10.323056,
+            36.853056
+          ],
+          "appearAt": 0.3,
+          "kind": "primary"
+        }
+      ],
+      "note": "Modern coastline",
+      "claimIds": [
+        "c01"
+      ]
+    },
+    {
+      "type": "timeline",
+      "name": "2c Rise and fall",
+      "durationInSeconds": 12.7,
+      "title": "Carthage",
+      "events": [
+        {
+          "date": "9th c. BC",
+          "label": "Founded on the Gulf of Tunis",
+          "claimId": "c01"
+        },
+        {
+          "date": "From 6th c. BC",
+          "label": "A trading power across the Mediterranean",
+          "claimId": "c01"
+        },
+        {
+          "date": "146 BC",
+          "label": "Destroyed by Rome",
+          "claimId": "c01"
+        }
+      ]
+    },
+    {
+      "type": "statement",
+      "name": "2d The tophet",
+      "durationInSeconds": 15.1,
+      "text": "Archaeologists call it the tophet.",
+      "claimId": "c03",
+      "label": "fact",
+      "sourceNote": "The Hebrew Bible uses the same word, Topheth, for a condemned place near Jerusalem"
+    },
+    {
+      "type": "stat",
+      "name": "3b One season",
+      "durationInSeconds": 14.7,
+      "value": "≈ 1,000",
+      "countTo": 1000,
+      "label": "urns lifted in a single season, 1925",
+      "sourceNote": "Kelsey expedition · as described by Stager 2014",
+      "claimId": "c05"
+    },
+    {
+      "type": "timeline",
+      "name": "3a Excavations",
+      "durationInSeconds": 14.4,
+      "title": "A century of digging",
+      "events": [
+        {
+          "date": "1921",
+          "label": "Stelae spotted being dug up at night",
+          "claimId": "c04"
+        },
+        {
+          "date": "1925",
+          "label": "Kelsey expedition: about 1,000 urns in one season",
+          "claimId": "c05"
+        },
+        {
+          "date": "1976–79",
+          "label": "Layer-by-layer excavation (Stager, ASOR)",
+          "claimId": "c05"
+        },
+        {
+          "date": "Since 2014",
+          "label": "Tunisian-led excavations",
+          "claimId": "c37"
+        }
+      ]
+    },
+    {
+      "type": "statement",
+      "name": "3c Six centuries",
+      "durationInSeconds": 13.6,
+      "text": "Hundreds of urns, buried over some six centuries",
+      "claimId": "c07",
+      "label": "fact",
+      "sourceNote": "c. 8th century BC – 146 BC (excavators' dating) · trench of roughly 150 m²"
+    },
+    {
+      "type": "statement",
+      "name": "3d Contents",
+      "durationInSeconds": 13.1,
+      "text": "Infants. Young lambs. Sometimes both, in one urn.",
+      "claimId": "c09",
+      "label": "fact"
+    },
+    {
+      "type": "stat",
+      "name": "3e Amulets",
+      "durationInSeconds": 10.9,
+      "value": "31%",
+      "countTo": 31,
+      "label": "of urns studied held amulets: only ever with human remains",
+      "sourceNote": "Degryse et al. 2023",
+      "claimId": "c14"
+    },
+    {
+      "type": "source",
+      "name": "4a Diodorus",
+      "durationInSeconds": 24.2,
+      "author": "Diodorus Siculus",
+      "work": "Library of History 20.14",
+      "written": "1st century BC",
+      "text": "Claims that during a siege in 310 BC the Carthaginians sacrificed 200 children of noble families to the god he calls Cronus.",
+      "gap": "Written about 250 years after the events",
+      "claimId": "c16"
+    },
+    {
+      "type": "source",
+      "name": "4b Plutarch",
+      "durationInSeconds": 9,
+      "author": "Plutarch",
+      "work": "On Superstition 13",
+      "written": "1st–2nd century AD",
+      "text": "Describes parents offering their own children, and mothers forbidden to weep.",
+      "gap": "Written long after Carthage's fall",
+      "claimId": "c17"
+    },
+    {
+      "type": "statement",
+      "name": "4c Outsiders",
+      "durationInSeconds": 11.9,
+      "text": "The accusers were outsiders: Greek authors, not Carthaginians.",
+      "claimId": "c18",
+      "label": "fact"
+    },
+    {
+      "type": "statement",
+      "name": "4d Supposed eye-witnesses",
+      "durationInSeconds": 11.5,
+      "text": "\"Supposed eye-witness reports\"",
+      "claimId": "c39",
+      "label": "interpretation",
+      "attribution": "Schwartz et al. 2010"
+    },
+    {
+      "type": "statement",
+      "name": "4e Not proof",
+      "durationInSeconds": 7,
+      "text": "Hostile sources are not necessarily false. On their own, they are not proof.",
+      "claimId": null,
+      "label": null
+    },
+    {
+      "type": "image",
+      "name": "5a Voices in stone",
+      "durationInSeconds": 15.3,
+      "src": "carthage-tophet/assets/stela-palm-tanit-lyon.jpg",
+      "caption": "A stela from the Carthage tophet, 3rd century BC. Its inscription is not translated here.",
+      "credit": "Photo: Rama · CC BY-SA 2.0 FR · Musée des Beaux-Arts de Lyon",
+      "isReconstruction": false,
+      "fit": "contain"
+    },
+    {
+      "type": "statement",
+      "name": "5b The vow formula",
+      "durationInSeconds": 5.9,
+      "text": "\"…because he heard his voice and blessed him\"",
+      "claimId": "c12",
+      "label": "fact",
+      "sourceNote": "Typical vow formula on tophet stelae · translation: Stager 2014"
+    },
+    {
+      "type": "statement",
+      "name": "5c Promised gifts",
+      "durationInSeconds": 13.1,
+      "text": "Promised gifts, given after a prayer was answered",
+      "claimId": "c26",
+      "label": "interpretation",
+      "attribution": "Stager 2014"
+    },
+    {
+      "type": "statement",
+      "name": "5d mlk",
+      "durationInSeconds": 14.8,
+      "text": "mlk: a kind of sacrificial offering, not a god called \"Moloch\"",
+      "claimId": "c13",
+      "label": "interpretation",
+      "attribution": "Eissfeldt 1935; Xella 2023"
+    },
+    {
+      "type": "statement",
+      "name": "5e The priest stela",
+      "durationInSeconds": 13.6,
+      "text": "A priest holding an infant: alive, or already dead?",
+      "claimId": "c15",
+      "label": "interpretation",
+      "attribution": "Stager 2014 (living child) vs Schwartz et al. 2017 (deceased infant)"
+    },
+    {
+      "type": "statement",
+      "name": "6a Age is the key",
+      "durationInSeconds": 20,
+      "text": "The case rests largely on age at death",
+      "claimId": "c40",
+      "label": "fact",
+      "sourceNote": "Estimated from small, fire-damaged fragments of skull, hip and teeth"
+    },
+    {
+      "type": "diagram",
+      "name": "6b Neonatal line",
+      "durationInSeconds": 11.2,
+      "variant": "neonatal-line",
+      "caption": "The neonatal line forms only if a baby survives at least a week or two after birth.",
+      "claimIds": [
+        "c25"
+      ]
+    },
+    {
+      "type": "diagram",
+      "name": "6c Shrinkage",
+      "durationInSeconds": 6.5,
+      "variant": "shrinkage",
+      "caption": "Fire shrinks bone. Schwartz et al. tested corrections of up to 25%.",
+      "claimIds": [
+        "c24"
+      ]
+    },
+    {
+      "type": "statement",
+      "name": "6d Correction matters",
+      "durationInSeconds": 4.9,
+      "text": "How much you correct for that changes the answer.",
+      "claimId": "c24",
+      "label": "fact"
+    },
+    {
+      "type": "compare",
+      "name": "7a Two verdicts",
+      "durationInSeconds": 58.4,
+      "title": "Same bones, two verdicts",
+      "left": {
+        "heading": "Many died before or around birth",
+        "claimId": "c22",
+        "attribution": "Schwartz et al. 2010, 2012, 2017",
+        "points": [
+          "348 urns from the 1970s excavation",
+          "2017: 24% prenatal, 15% around birth, 17% under one month",
+          "Neonatal line in 24 of 50 sampled",
+          "Fits natural infant mortality; occasional sacrifice not ruled out"
+        ]
+      },
+      "right": {
+        "heading": "Most died at 1–1.5 months",
+        "claimId": "c23",
+        "attribution": "Smith et al. 2011, 2013",
+        "points": [
+          "Largely the same collection",
+          "Corrected for shrinkage",
+          "Argue cremation can erase the neonatal line",
+          "Unlike an ordinary infant cemetery: sacrifice \"very probable\""
+        ]
+      },
+      "footer": "Each team argued in print that the other had erred (2010–2017).",
+      "claimIds": [
+        "c38",
+        "c25",
+        "c24",
+        "c21"
+      ]
+    },
+    {
+      "type": "statement",
+      "name": "7b Same bones",
+      "durationInSeconds": 11.6,
+      "text": "Same bones. Two verdicts.",
+      "claimId": "c21",
+      "label": "fact",
+      "sourceNote": "Published exchange in PLoS ONE and Antiquity, 2010–2017"
+    },
+    {
+      "type": "map",
+      "name": "8a Beyond Carthage",
+      "durationInSeconds": 22.6,
+      "title": "Tophets: central Mediterranean (so far)",
+      "view": {
+        "from": {
+          "center": [
+            22,
+            36.5
+          ],
+          "scale": 2400
+        },
+        "to": {
+          "center": [
+            10.4,
+            37
+          ],
+          "scale": 4600
+        }
+      },
+      "markers": [
+        {
+          "label": "Tyre?",
+          "at": [
+            35.201829,
+            33.2693355
+          ],
+          "appearAt": 1,
+          "kind": "uncertain"
+        },
+        {
+          "label": "Carthage",
+          "at": [
+            10.323056,
+            36.853056
+          ],
+          "appearAt": 7,
+          "kind": "primary"
+        },
+        {
+          "label": "Motya",
+          "at": [
+            12.46830789307367,
+            37.867414938317076
+          ],
+          "appearAt": 9,
+          "kind": "site"
+        },
+        {
+          "label": "Tharros",
+          "at": [
+            8.441009486413876,
+            39.87486450588456
+          ],
+          "appearAt": 10.5,
+          "kind": "site"
+        },
+        {
+          "label": "Zita",
+          "at": [
+            11.112905,
+            33.503895
+          ],
+          "appearAt": 15,
+          "kind": "site"
+        }
+      ],
+      "note": "Selected sites · Zita: later, comparative evidence",
+      "claimIds": [
+        "c19",
+        "c20",
+        "c30"
+      ]
+    },
+    {
+      "type": "statement",
+      "name": "8b Zita",
+      "durationInSeconds": 21.1,
+      "text": "Zita: hard lives, careful burial, no concrete sign of sacrifice",
+      "claimId": "c30",
+      "label": "fact",
+      "sourceNote": "Cerezo-Román et al. 2024 · a different site, after Carthage's fall"
+    },
+    {
+      "type": "statement",
+      "name": "8c New excavations",
+      "durationInSeconds": 10.4,
+      "text": "Since 2014, Tunisian-led excavations have been re-dating the precinct.",
+      "claimId": "c37",
+      "label": "fact",
+      "sourceNote": "Ben Jerbania et al. 2023"
+    },
+    {
+      "type": "ledger",
+      "name": "9a Shows / cannot show",
+      "durationInSeconds": 20,
+      "leftHeading": "The evidence shows",
+      "rightHeading": "It cannot yet show",
+      "left": [
+        "Six centuries of infant and animal cremations",
+        "Careful burial, beneath stones carved with vows",
+        "An ancient accusation, made by outsiders"
+      ],
+      "right": [
+        "How each child died",
+        "Whether all, some or none were sacrificed"
+      ],
+      "claimIds": [
+        "c07",
+        "c08",
+        "c12",
+        "c14",
+        "c16",
+        "c18",
+        "c32",
+        "c40"
+      ]
+    },
+    {
+      "type": "statement",
+      "name": "9b Uncertain as ever",
+      "durationInSeconds": 11.7,
+      "text": "\"As uncertain as ever\"",
+      "claimId": "c29",
+      "label": "fact",
+      "sourceNote": "Independent review · Bryn Mawr Classical Review, 2024"
+    },
+    {
+      "type": "statement",
+      "name": "10a Two stories",
+      "durationInSeconds": 18,
+      "text": "Offered to the gods, or mourned and buried with care?",
+      "claimId": "c32",
+      "label": "open-question"
+    },
+    {
+      "type": "title",
+      "name": "10b The ground",
+      "durationInSeconds": 11.4,
+      "kicker": "The Hidden World",
+      "heading": "The answer may still be in the ground beneath Carthage."
+    },
+    {
+      "type": "title",
+      "name": "10c End card",
+      "durationInSeconds": 4.5,
+      "kicker": "Sources & credits",
+      "heading": "Full sources and image credits in the description."
+    }
+  ]
+}

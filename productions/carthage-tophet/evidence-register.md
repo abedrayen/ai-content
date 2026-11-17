@@ -1,5 +1,7 @@
 # Evidence register: The Tophet of Carthage
 
+> **Superseded wording (2026-11-17):** the editor approved the corrections in `claim-audit.md`. For c07, c10, c14, c18, c21, c22, c25, c27 (attribution) and c29, **the wording in `claims.json` takes precedence** over the text below.
+
 Status: **no claim is human-verified yet.** In `claims.json`, every claim is set to `verified: false` until a researcher has checked it against the sources.
 Source IDs refer to `sources.md`.
 

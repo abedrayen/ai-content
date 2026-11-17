@@ -1,0 +1,74 @@
+{
+  "slug": "carthage-tophet",
+  "title": "Same Bones, Two Verdicts: The Carthage Tophet Mystery",
+  "format": "short",
+  "scenes": [
+    {
+      "type": "title",
+      "name": "1 Hook",
+      "durationInSeconds": 6.5,
+      "kicker": "The Hidden World",
+      "heading": "Same bones. Two verdicts."
+    },
+    {
+      "type": "statement",
+      "name": "2 The place",
+      "durationInSeconds": 7.5,
+      "text": "Carthage · modern Tunisia",
+      "claimId": "c07",
+      "label": "fact",
+      "sourceNote": "c. 8th century BC – 146 BC (excavators' dating)"
+    },
+    {
+      "type": "statement",
+      "name": "3 Vows in stone",
+      "durationInSeconds": 6.5,
+      "text": "A vow to Ba'al Hammon and Tanit",
+      "claimId": "c12",
+      "label": "fact"
+    },
+    {
+      "type": "statement",
+      "name": "4 The accusers",
+      "durationInSeconds": 5.5,
+      "text": "The accusers: Greek writers",
+      "claimId": "c18",
+      "label": "fact",
+      "sourceNote": "Diodorus Siculus (1st c. BC) · Plutarch (1st–2nd c. AD)"
+    },
+    {
+      "type": "statement",
+      "name": "5 Smith et al.",
+      "durationInSeconds": 9.5,
+      "text": "Most died aged 1–1.5 months",
+      "claimId": "c23",
+      "label": "interpretation",
+      "attribution": "Smith et al. 2011, 2013"
+    },
+    {
+      "type": "statement",
+      "name": "6 Schwartz et al.",
+      "durationInSeconds": 9.5,
+      "text": "Many died before or around birth",
+      "claimId": "c22",
+      "label": "interpretation",
+      "attribution": "Schwartz et al. 2010, 2012, 2017"
+    },
+    {
+      "type": "statement",
+      "name": "7 Method",
+      "durationInSeconds": 7.5,
+      "text": "Fire shrinks bone. Does the birth line in the teeth survive?",
+      "claimId": "c24",
+      "label": "fact"
+    },
+    {
+      "type": "statement",
+      "name": "8 Open question",
+      "durationInSeconds": 7,
+      "text": "Offered to the gods, or mourned?",
+      "claimId": "c32",
+      "label": "open-question"
+    }
+  ]
+}

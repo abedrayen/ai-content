@@ -1,0 +1,43 @@
+{
+  "storyboard": "storyboard.json",
+  "voice": "bm_george",
+  "lang": "b",
+  "speed": 1.2,
+  "note": "Approved Short narration (script.md), split by scene. Pronunciation overrides use Kokoro/misaki syntax [word](/phonemes/). Short cut applied (pre-approved list in audio/recording-guide.md, cut 1): \"for some six centuries\" removed from scene 2 to fit 60 s.",
+  "scenes": [
+    {
+      "name": "1 Hook",
+      "text": "Two teams studied the same burnt bones from ancient Carthage, and reached conflicting conclusions."
+    },
+    {
+      "name": "2 The place",
+      "text": "They come from Carthage's [tophet](/tˈəʊfɛt/): a sacred precinct where people buried urns of cremated infants, and young lambs."
+    },
+    {
+      "name": "3 Vows in stone",
+      "text": "Stones above many urns record vows to the gods [Ba'al](/bˈɑːəl/) [Hammon](/hɑmˈəʊn/) and [Tanit](/tˈɑːniːt/)."
+    },
+    {
+      "name": "4 The accusers",
+      "text": "Greek writers accused Carthage of sacrificing children. None of them was Carthaginian."
+    },
+    {
+      "name": "5 Smith et al.",
+      "text": "Patricia Smith's team concluded most of the infants died at one to one and a half months: a pattern they read as sacrifice."
+    },
+    {
+      "name": "6 Schwartz et al.",
+      "text": "Jeffrey Schwartz's team concluded many died before or around birth: consistent, they argue, with natural deaths, though occasional sacrifice may have happened."
+    },
+    {
+      "name": "7 Method",
+      "text": "The dispute is method: how much fire shrinks bone, and whether it erases a tooth line that forms only after a baby's first week or two."
+    },
+    {
+      "name": "8 Open question",
+      "text": "One twenty twenty-four expert review still called the evidence uncertain. Offered to the gods, or mourned and buried with care? We still don't know."
+    }
+  ],
+  "lead": 0.35,
+  "tail": 0.25
+}

@@ -1,10 +1,118 @@
 {
   "slug": "carthage-tophet",
-  "title": "TODO working title",
+  "title": "Same Bones, Two Verdicts: The Carthage Tophet Mystery",
   "format": "short",
+  "audio": {
+    "music": {
+      "src": "carthage-tophet/audio/drone-bed.mp3",
+      "volume": 0.84
+    },
+    "narration": {
+      "src": "carthage-tophet/audio/narration-short.mp3",
+      "volume": 0.84
+    }
+  },
   "scenes": [
-    { "type": "title", "name": "Opening", "durationInSeconds": 3, "kicker": "The Hidden World", "heading": "TODO hook" },
-    { "type": "statement", "name": "Claim 1", "durationInSeconds": 4, "text": "TODO: matches claims.json text", "claimId": "example-claim", "label": "fact" },
-    { "type": "image", "name": "Visual 1", "durationInSeconds": 4, "src": "carthage-tophet/assets/placeholder.svg", "caption": "TODO caption", "credit": "Placeholder artwork · The Hidden World (original)", "isReconstruction": false }
+    {
+      "type": "title",
+      "name": "1 Hook",
+      "durationInSeconds": 6.6,
+      "kicker": "The Hidden World",
+      "heading": "Same bones. Two verdicts."
+    },
+    {
+      "type": "map",
+      "name": "2 The place",
+      "durationInSeconds": 7.9,
+      "title": "Carthage · c. 8th c. BC – 146 BC",
+      "view": {
+        "from": {
+          "center": [
+            14,
+            37
+          ],
+          "scale": 2600
+        },
+        "to": {
+          "center": [
+            10.3,
+            36.9
+          ],
+          "scale": 9000
+        }
+      },
+      "markers": [
+        {
+          "label": "Carthage",
+          "at": [
+            10.323056,
+            36.853056
+          ],
+          "appearAt": 1.2,
+          "kind": "primary"
+        }
+      ],
+      "note": "Modern Tunisia",
+      "claimIds": [
+        "c01",
+        "c07"
+      ]
+    },
+    {
+      "type": "image",
+      "name": "3 Vows in stone",
+      "durationInSeconds": 6,
+      "src": "carthage-tophet/assets/stela-palm-tanit-lyon.jpg",
+      "caption": "A stela from the Carthage tophet, 3rd century BC. Its inscription is not translated here.",
+      "credit": "Photo: Rama · CC BY-SA 2.0 FR · Musée des Beaux-Arts de Lyon",
+      "isReconstruction": false,
+      "fit": "contain"
+    },
+    {
+      "type": "statement",
+      "name": "4 The accusers",
+      "durationInSeconds": 6.4,
+      "text": "The accusers: Greek writers",
+      "claimId": "c18",
+      "label": "fact",
+      "sourceNote": "Diodorus Siculus (1st c. BC) · Plutarch (1st–2nd c. AD)"
+    },
+    {
+      "type": "statement",
+      "name": "5 Smith et al.",
+      "durationInSeconds": 8.1,
+      "text": "Most died aged 1–1.5 months",
+      "claimId": "c23",
+      "label": "interpretation",
+      "attribution": "Smith et al. 2011, 2013"
+    },
+    {
+      "type": "statement",
+      "name": "6 Schwartz et al.",
+      "durationInSeconds": 10.1,
+      "text": "Many died before or around birth",
+      "claimId": "c22",
+      "label": "interpretation",
+      "attribution": "Schwartz et al. 2010, 2012, 2017"
+    },
+    {
+      "type": "diagram",
+      "name": "7 Method",
+      "durationInSeconds": 8.7,
+      "variant": "neonatal-line",
+      "caption": "Fire shrinks bone, and may erase this birth line in the teeth.",
+      "claimIds": [
+        "c24",
+        "c25"
+      ]
+    },
+    {
+      "type": "statement",
+      "name": "8 Open question",
+      "durationInSeconds": 8.7,
+      "text": "Offered to the gods, or mourned?",
+      "claimId": "c32",
+      "label": "open-question"
+    }
   ]
 }
