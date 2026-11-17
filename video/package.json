@@ -39,7 +39,14 @@
     "new": "node scripts/new-production.mjs",
     "check": "node scripts/check-production.mjs",
     "render:short": "remotion render Short",
-    "render:long": "remotion render LongForm"
+    "render:long": "remotion render LongForm",
+    "youtube:connect": "node scripts/youtube/cli.mjs connect",
+    "youtube:status": "node scripts/youtube/cli.mjs status",
+    "youtube:disconnect": "node scripts/youtube/cli.mjs disconnect",
+    "youtube:upload": "node scripts/youtube/cli.mjs upload",
+    "youtube:publish": "node scripts/youtube/cli.mjs publish",
+    "youtube:video": "node scripts/youtube/cli.mjs video",
+    "test:youtube": "node --test scripts/youtube/youtube.test.mjs"
   },
   "allowScripts": {
     "esbuild": false

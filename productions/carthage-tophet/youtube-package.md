@@ -66,7 +66,10 @@ KEY SOURCES
 • Schwartz et al. (2017) Antiquity 91: 442–454 — https://doi.org/10.15184/aqy.2016.270
 • Stager (2014) Rites of Spring in the Carthaginian Tophet. BABESCH Byvanck Lecture.
 • Xella (2023) The Levantine Roots of the tophet Sanctuary. Journal of Ancient History 11(2) — https://doi.org/10.1515/jah-2023-0015
-• Fulton, Hesse & Burns (2023); Degryse et al. (2023); Ben Jerbania et al. (2023) — Journal of Ancient History 11(2)
+• Fulton, Hesse & Burns (2023) Journal of Ancient History 11(2) — https://doi.org/10.1515/jah-2023-0014
+• Degryse et al. (2023) Journal of Ancient History 11(2) — https://doi.org/10.1515/jah-2023-0016
+• Ben Jerbania et al. (2023) Journal of Ancient History 11(2) — https://doi.org/10.1515/jah-2023-0021
+• Musée des Beaux-Arts de Lyon, collection record inv. 1969-86 (stela of ‘Azorba‘al) — https://collections.mba-lyon.fr/fr/notice/1969-86-stele-de-azorba-al-223b09ca-aeb3-45e3-a31d-854ae54cffaa
 • Cerezo-Román et al. (2024) Antiquity 98: 936–953 — https://doi.org/10.15184/aqy.2024.85
 • McCarty (2024) Bryn Mawr Classical Review 2024.09.08 — https://bmcr.brynmawr.edu/?p=92573
 • Diodorus Siculus, Library of History 20.14; Plutarch, On Superstition 13 (Loeb translations)

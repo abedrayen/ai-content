@@ -17,3 +17,10 @@ productions/*/renders/
 
 # Raw narration takes / intermediate WAVs (large). Final narration is MP3.
 productions/*/audio/*.wav
+
+# Secrets must live in %LOCALAPPDATA%\TheHiddenWorld\secrets, never here. Defence in depth only.
+client_secret*.json
+*token*.json
+*.dpapi
+youtube-account.json
+.env*

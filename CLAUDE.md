@@ -51,6 +51,15 @@ Avoid: generic AI imagery, flashy/excessive transitions, meaningless animation, 
 - Scenes are generated from storyboard data, so edit `storyboard.json`, not the Studio timeline.
 - `src/schema/production.ts` is also loaded directly by Node (type stripping): it can only import `zod` and must use erasable TS (no enums).
 
+## YouTube publishing (docs/youtube-publishing.md)
+- Commands (in `video/`): `npm run youtube:connect | youtube:status | youtube:disconnect`, `npm run youtube:upload -- <slug> --format short|long` (always PRIVATE), `npm run youtube:publish -- <slug> --format short|long --confirm-publication` (PUBLIC), `npm run youtube:video -- <slug>`. Each prints a final `RESULT {json}` line. Read it, and report only what it says.
+- When asked to publish, run `youtube:publish` only for the exact production and format named. **Never** add `--confirm-publication` unless the user asked to publish that specific video in the current conversation. Never use `--promote`, `--new-upload` or `--restart-upload` without being asked.
+- A public release requires every checker gate (`--for publish`) and the approval lines in `approval.md`, including `YouTube publication approved (<format>): yes…`, which **only the user writes**. Never fill in approval lines, `verified` flags, or `containsSyntheticMedia` yourself.
+- The editor's acceptance of a render is not publication approval.
+- Never report a video as published unless the RESULT says `"privacy":"public"`. Report private, processing, scheduled and failed states as they are.
+- Secrets live only in `%LOCALAPPDATA%\TheHiddenWorld\secrets` (DPAPI-encrypted). Never read, print, copy or move them into the repo or OneDrive. `youtube:connect` is interactive: ask the user to run it in their own terminal.
+- Test with `npm run test:youtube` (mocked). Never upload a test video publicly. Any real test upload is PRIVATE and needs the user's prior approval.
+
 ## Working rules for Claude
 - Inspect existing code, docs and skills before implementing; avoid duplicate implementations.
 - Explain significant architectural decisions before making them.

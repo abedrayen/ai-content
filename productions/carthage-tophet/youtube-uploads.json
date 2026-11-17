@@ -1,0 +1,37 @@
+{
+  "uploads": [
+    {
+      "key": "carthage-tophet:short:893ff19f09ae483e0433a6b0f5af20366d83f06eadd29b05f0198829b320b6af",
+      "slug": "carthage-tophet",
+      "format": "short",
+      "renderFile": "renders/PREVIEW-short-1080x1920-vo.mp4",
+      "renderSha256": "893ff19f09ae483e0433a6b0f5af20366d83f06eadd29b05f0198829b320b6af",
+      "metadataSha256": "55b5f891e84c816e693dcc7044809893a00a1fe78a209201bd27b1fd12b1c1b6",
+      "privacyRequested": "private",
+      "videoId": "PFck39epsW4",
+      "url": "https://www.youtube.com/watch?v=PFck39epsW4",
+      "studioUrl": "https://studio.youtube.com/video/PFck39epsW4/edit",
+      "uploadedAt": "2026-11-17T04:57:36.071Z",
+      "resumedSession": false,
+      "status": {
+        "uploadStatus": "uploaded",
+        "privacyStatus": "private",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "selfDeclaredMadeForKids": false
+      },
+      "lastKnown": {
+        "id": "PFck39epsW4",
+        "title": "Same Bones, Two Verdicts: The Carthage Tophet Mystery",
+        "privacyStatus": "private",
+        "uploadStatus": "uploaded",
+        "failureReason": null,
+        "rejectionReason": null,
+        "publishAt": null,
+        "processingStatus": "processing",
+        "checkedAt": "2026-11-17T04:57:51.702Z"
+      }
+    }
+  ]
+}

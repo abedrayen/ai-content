@@ -15,7 +15,10 @@ const USAGE = "Usage: npm run check -- <slug> [--for render|publish]";
 const args = process.argv.slice(2);
 let slug;
 let target = "render";
+// --json: machine-readable report (used by the YouTube publisher); same gates, same exit code.
+const asJson = args.includes("--json");
 for (let i = 0; i < args.length; i++) {
+  if (args[i] === "--json") continue;
   if (args[i] === "--for") target = args[++i];
   else if (!slug) slug = args[i];
   else target = "invalid";
@@ -234,6 +237,19 @@ const required = target === "publish" ? [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] : [1, 2,
 // Gates whose pass condition is a person's sign-off, not a technical check.
 const HUMAN = new Set([1, 2, 4, 9, 10]);
 let blocking = 0;
+if (asJson) {
+  const report = gates.map((g) => ({
+    gate: g.gate,
+    name: g.name,
+    human: HUMAN.has(g.gate),
+    required: required.includes(g.gate),
+    ok: g.problems.length === 0,
+    problems: g.problems,
+  }));
+  blocking = report.filter((g) => g.required && !g.ok).length;
+  console.log(JSON.stringify({ slug, target, blocking, gates: report }));
+  process.exit(blocking ? 1 : 0);
+}
 console.log(`\nThe Hidden World — gate check: ${slug}  (for ${target})\n`);
 for (const g of gates) {
   const ok = g.problems.length === 0;

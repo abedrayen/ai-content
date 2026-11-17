@@ -1,0 +1,67 @@
+{
+  "$comment": "Machine-readable copy of youtube-package.md (titles, descriptions, tags are verbatim). containsSyntheticMedia stays null until the editor decides (approval.md item 7). Upload privacy is never stored here: the CLI sets it per command.",
+  "formats": {
+    "short": {
+      "storyboard": "storyboard.json",
+      "render": "renders/PREVIEW-short-1080x1920-vo.mp4",
+      "acceptedSha256": "893ff19f09ae483e0433a6b0f5af20366d83f06eadd29b05f0198829b320b6af",
+      "title": "Same Bones, Two Verdicts: The Carthage Tophet Mystery",
+      "description": "Two teams studied the same burnt bones from ancient Carthage — and reached conflicting conclusions. What do the remains from the tophet actually tell us? Full documentary on the channel.\nSources: Schwartz et al. 2010/2017; Smith et al. 2011/2013; McCarty 2024 (BMCR).\nPhoto: Rama, Wikimedia Commons, CC BY-SA 2.0 FR (Musée des Beaux-Arts de Lyon). Map: Natural Earth. Narration: synthetic voice (Kokoro TTS). Music: original.\n#Carthage #Archaeology #Shorts",
+      "thumbnail": null,
+      "categoryId": "27",
+      "defaultLanguage": "en",
+      "defaultAudioLanguage": "en",
+      "license": "youtube",
+      "embeddable": true,
+      "publicStatsViewable": true,
+      "selfDeclaredMadeForKids": false,
+      "containsSyntheticMedia": null,
+      "tags": [
+        "Carthage",
+        "Carthage tophet",
+        "Punic",
+        "Phoenicians",
+        "archaeology",
+        "ancient history",
+        "Tunisia history",
+        "Tanit",
+        "Baal Hammon",
+        "Salammbô",
+        "ancient Mediterranean",
+        "history documentary",
+        "bioarchaeology"
+      ]
+    },
+    "long": {
+      "storyboard": "storyboard-long.json",
+      "render": "renders/PREVIEW-long-1920x1080-vo.mp4",
+      "acceptedSha256": "4aa30da00ac46b62f2c226ec29ac081e2c67a0cf85466ad96bb46c7c01671654",
+      "title": "Carthage's Tophet: Burial Ground or Place of Sacrifice?",
+      "description": "In 1921, carved stones were found being dug up by moonlight on the edge of Tunis. Beneath them: urn after urn of cremated infants and young lambs. A century later, two teams of specialists have studied the same remains — and reached conflicting conclusions. Were the children of Carthage's tophet sacrificed, or mourned and buried with care?\n\nThis documentary follows the evidence: the excavations, the ancient Greek accusations, the Punic inscriptions, the skeletal science — and what the evidence can and cannot establish. Interpretations are credited to the scholars who hold them; no side is presented as settled.\n\nCHAPTERS\n0:00 A discovery by moonlight\n0:43 Carthage\n1:30 The discovery\n2:34 The accusation\n3:35 Voices in stone\n4:35 Reading the bones\n5:16 Same bones, two verdicts\n6:25 Beyond Carthage\n7:18 What we can — and cannot — know\n7:48 The open question\n\nKEY SOURCES\n• Schwartz, Houghton, Macchiarelli & Bondioli (2010) PLoS ONE 5(2): e9177 — https://doi.org/10.1371/journal.pone.0009177\n• Smith, Avishai, Greene & Stager (2011) Antiquity 85: 859–874 — https://doi.org/10.1017/S0003598X00068368\n• Schwartz et al. (2012) Antiquity 86: 738–745 — https://doi.org/10.1017/S0003598X00047888\n• Smith, Stager, Greene & Avishai (2013) Antiquity 87: 1191–1199 — https://doi.org/10.1017/S0003598X00049954\n• Xella, Quinn, Melchiorri & van Dommelen (2013) Antiquity 87: 1199–1207 — https://doi.org/10.1017/S0003598X00049966\n• Schwartz et al. (2017) Antiquity 91: 442–454 — https://doi.org/10.15184/aqy.2016.270\n• Stager (2014) Rites of Spring in the Carthaginian Tophet. BABESCH Byvanck Lecture.\n• Xella (2023) The Levantine Roots of the tophet Sanctuary. Journal of Ancient History 11(2) — https://doi.org/10.1515/jah-2023-0015\n• Fulton, Hesse & Burns (2023) Journal of Ancient History 11(2) — https://doi.org/10.1515/jah-2023-0014\n• Degryse et al. (2023) Journal of Ancient History 11(2) — https://doi.org/10.1515/jah-2023-0016\n• Ben Jerbania et al. (2023) Journal of Ancient History 11(2) — https://doi.org/10.1515/jah-2023-0021\n• Musée des Beaux-Arts de Lyon, collection record inv. 1969-86 (stela of ‘Azorba‘al) — https://collections.mba-lyon.fr/fr/notice/1969-86-stele-de-azorba-al-223b09ca-aeb3-45e3-a31d-854ae54cffaa\n• Cerezo-Román et al. (2024) Antiquity 98: 936–953 — https://doi.org/10.15184/aqy.2024.85\n• McCarty (2024) Bryn Mawr Classical Review 2024.09.08 — https://bmcr.brynmawr.edu/?p=92573\n• Diodorus Siculus, Library of History 20.14; Plutarch, On Superstition 13 (Loeb translations)\n• UNESCO World Heritage Centre, Archaeological Site of Carthage — https://whc.unesco.org/en/list/37/\n\nIMAGE, MAP & MUSIC CREDITS\n• \"Stele with palm and Tanit sign – MBA Lyon 1969-86\" — Photograph by Rama, Wikimedia Commons, Cc-by-sa-2.0-fr (https://commons.wikimedia.org/wiki/File:Stele_with_palm_and_Tanit_sign-MBA_Lyon_1969-86-IMG_0548.jpg). Licence: https://creativecommons.org/licenses/by-sa/2.0/fr/. Courtesy of Musée des Beaux-Arts de Lyon. Shown in full; scaled for video, no other changes.\n• Map data: Natural Earth (public domain). Site coordinates: Pleiades (pleiades.stoa.org), CC BY 3.0.\n• Narration: synthetic voice (Kokoro TTS, open-source, Apache-2.0).\n• Music: original, created for The Hidden World.\n• Diagrams are simplified illustrations, not to scale.\n\n#Carthage #Archaeology #AncientHistory",
+      "thumbnail": "renders/THUMBNAIL-1280x720.png",
+      "categoryId": "27",
+      "defaultLanguage": "en",
+      "defaultAudioLanguage": "en",
+      "license": "youtube",
+      "embeddable": true,
+      "publicStatsViewable": true,
+      "selfDeclaredMadeForKids": false,
+      "containsSyntheticMedia": null,
+      "tags": [
+        "Carthage",
+        "Carthage tophet",
+        "Punic",
+        "Phoenicians",
+        "archaeology",
+        "ancient history",
+        "Tunisia history",
+        "Tanit",
+        "Baal Hammon",
+        "Salammbô",
+        "ancient Mediterranean",
+        "history documentary",
+        "bioarchaeology"
+      ]
+    }
+  }
+}

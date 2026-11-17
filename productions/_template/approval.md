@@ -6,3 +6,5 @@ Approved by:
 Date: 
 Platforms: 
 Final render file: 
+YouTube publication approved (short):
+YouTube publication approved (long):

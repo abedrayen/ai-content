@@ -1048,7 +1048,7 @@
     },
     {
       "id": "c34",
-      "text": "The stela shown in segment 3 (Musee des Beaux-Arts de Lyon, inv. 1969-86) is a limestone stela from the Carthage tophet dated to the 3rd century BC.",
+      "text": "The stela shown in the stela scenes (Musée des Beaux-Arts de Lyon, inv. 1969-86) is a carved limestone stela from the Carthage tophet, dated by the museum to the 3rd century BC (estimated).",
       "label": "fact",
       "sources": [
         {
@@ -1056,14 +1056,21 @@
           "publisher": "Wikimedia Commons",
           "url": "https://commons.wikimedia.org/wiki/File:Stele_with_palm_and_Tanit_sign-MBA_Lyon_1969-86-IMG_0548.jpg",
           "kind": "other"
+        },
+        {
+          "title": "Stèle de ‘Azorba‘al (inv. 1969-86) — collection record",
+          "publisher": "Musée des Beaux-Arts de Lyon, Collections en ligne",
+          "url": "https://collections.mba-lyon.fr/fr/notice/1969-86-stele-de-azorba-al-223b09ca-aeb3-45e3-a31d-854ae54cffaa",
+          "kind": "institutional",
+          "accessed": "2026-11-17"
         }
       ],
       "verified": false,
-      "notes": "On-screen caption of image scene 3. Source is the Commons record; confirm against the Musee des Beaux-Arts de Lyon catalogue before sign-off. The inscription content is NOT established and must not be implied.",
+      "notes": "On-screen caption of the stela scenes. The inscription IS a vow formula (per museum record), so the narration over this image is accurate for this stela; the caption \"not translated here\" remains true.",
       "review": {
-        "status": "requires-human-verification",
+        "status": "verified-by-source-review",
         "reviewedOn": "2026-11-17",
-        "evidence": "Commons record (museum data) only; Musée des Beaux-Arts de Lyon catalogue not consulted."
+        "evidence": "Museum record: \"IIIe siècle av. J.-C. : Date estimée\"; Collecte \"Carthage ; Tophet\"; \"Calcaire taillé et gravé\"; H 44.5 cm. The record also gives the inscription (CIS I 3241; Sznycer & Bron 2000, no. 8): a vow to Tanit Face of Ba‘al and Ba‘al Hammon by ‘Azorba‘al son of ‘Abdmilqart son of Bod‘ashtart. Provenance note: acquired 1889 (Exposition universelle, Paris) via V. Guez; Musée Guimet MG 8552; Lyon since 1913/1969."
       }
     },
     {

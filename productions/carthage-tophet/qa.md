@@ -1,5 +1,7 @@
 # Gate 9: Quality assurance (on the final render)
 
+**2026-11-17: the editor watched and accepted both voiced renders as videos** (hashes are in `approval.md`). The individual QA items below remain the editor's to tick.
+
 Tick these **on the final renders with narration**. They don't exist yet. The pre-narration technical results below are evidence for the reviewer, not ticks. Full details are in `qa-report.md`.
 
 - [ ] Duration within target (short 35–60 s / long 8–12 min)
