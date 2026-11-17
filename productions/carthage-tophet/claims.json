@@ -1,12 +1,793 @@
 {
   "claims": [
     {
-      "id": "example-claim",
-      "text": "TODO: one factual statement exactly as it will be narrated or shown.",
+      "id": "c01",
+      "text": "Carthage was founded by Phoenician settlers, traditionally in the 9th century BC, and destroyed by Rome in 146 BC.",
       "label": "fact",
-      "sources": [],
+      "sources": [
+        {
+          "title": "Archaeological Site of Carthage (World Heritage List ref. 37)",
+          "publisher": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/37",
+          "kind": "institutional"
+        },
+        {
+          "title": "Rites of Spring in the Carthaginian Tophet (Eighth BABESCH Byvanck Lecture)",
+          "author": "Stager, L.E.",
+          "publisher": "BABESCH Foundation, Leiden",
+          "year": "2014",
+          "url": "https://www.babesch.org/new_site/wp-content/uploads/2023/01/BABESCH_Byvanck_Lecture_2014_Stager.pdf",
+          "kind": "primary"
+        }
+      ],
       "verified": false,
-      "notes": "Replace this entry. 'verified' may only be set to true by a person who has read the sources."
+      "notes": "Register C01 (VERIFIED_FACT). Founding date is traditional; do not state 814 BC as fact."
+    },
+    {
+      "id": "c02",
+      "text": "The Archaeological Site of Carthage has been on the UNESCO World Heritage List since 1979.",
+      "label": "fact",
+      "sources": [
+        {
+          "title": "Archaeological Site of Carthage (World Heritage List ref. 37)",
+          "publisher": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/37",
+          "kind": "institutional"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C02 (VERIFIED_FACT). UNESCO page not read directly; confirm."
+    },
+    {
+      "id": "c03",
+      "text": "'Tophet' is a modern scholarly name borrowed from the Hebrew Bible, not the Carthaginians' own name for the site.",
+      "label": "fact",
+      "sources": [
+        {
+          "title": "Hebrew Bible, Jeremiah 7:31; 2 Kings 23:10",
+          "locator": "Jer 7:31; 2 Kgs 23:10",
+          "kind": "primary"
+        },
+        {
+          "title": "Rites of Spring in the Carthaginian Tophet (Eighth BABESCH Byvanck Lecture)",
+          "author": "Stager, L.E.",
+          "publisher": "BABESCH Foundation, Leiden",
+          "year": "2014",
+          "url": "https://www.babesch.org/new_site/wp-content/uploads/2023/01/BABESCH_Byvanck_Lecture_2014_Stager.pdf",
+          "kind": "primary"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C03 (VERIFIED_FACT). Punic name of the site not established (gap). Check verse wording."
+    },
+    {
+      "id": "c04",
+      "text": "The Carthage tophet was discovered in December 1921, when Paul Gielly saw an antiquities trafficker removing stelae by moonlight and alerted police chief Francois Icard.",
+      "label": "fact",
+      "sources": [
+        {
+          "title": "Rites of Spring in the Carthaginian Tophet (Eighth BABESCH Byvanck Lecture)",
+          "author": "Stager, L.E.",
+          "publisher": "BABESCH Foundation, Leiden",
+          "year": "2014",
+          "url": "https://www.babesch.org/new_site/wp-content/uploads/2023/01/BABESCH_Byvanck_Lecture_2014_Stager.pdf",
+          "kind": "primary"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C04 (VERIFIED_FACT). Single detailed account."
+    },
+    {
+      "id": "c05",
+      "text": "In a single season in 1925, a Franco-American expedition removed around 1,000 urns with little stratigraphic recording.",
+      "label": "fact",
+      "sources": [
+        {
+          "title": "Rites of Spring in the Carthaginian Tophet (Eighth BABESCH Byvanck Lecture)",
+          "author": "Stager, L.E.",
+          "publisher": "BABESCH Foundation, Leiden",
+          "year": "2014",
+          "url": "https://www.babesch.org/new_site/wp-content/uploads/2023/01/BABESCH_Byvanck_Lecture_2014_Stager.pdf",
+          "kind": "primary"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C05 (VERIFIED_FACT)."
+    },
+    {
+      "id": "c06",
+      "text": "The precinct lies close to Carthage's ancient harbours, about 50 m west of the rectangular commercial harbour.",
+      "label": "fact",
+      "sources": [
+        {
+          "title": "Rites of Spring in the Carthaginian Tophet (Eighth BABESCH Byvanck Lecture)",
+          "author": "Stager, L.E.",
+          "publisher": "BABESCH Foundation, Leiden",
+          "year": "2014",
+          "url": "https://www.babesch.org/new_site/wp-content/uploads/2023/01/BABESCH_Byvanck_Lecture_2014_Stager.pdf",
+          "kind": "primary"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C06 (VERIFIED_FACT)."
+    },
+    {
+      "id": "c07",
+      "text": "The precinct was used for roughly six centuries, from around the 8th century BC until 146 BC.",
+      "label": "fact",
+      "sources": [
+        {
+          "title": "Rites of Spring in the Carthaginian Tophet (Eighth BABESCH Byvanck Lecture)",
+          "author": "Stager, L.E.",
+          "publisher": "BABESCH Foundation, Leiden",
+          "year": "2014",
+          "url": "https://www.babesch.org/new_site/wp-content/uploads/2023/01/BABESCH_Byvanck_Lecture_2014_Stager.pdf",
+          "kind": "primary"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C07 (VERIFIED_FACT). Start date may vary across the precinct (S18 via S9)."
+    },
+    {
+      "id": "c08",
+      "text": "The urns contain the cremated remains of very young humans and of young animals, mainly lambs.",
+      "label": "fact",
+      "sources": [
+        {
+          "title": "Rites of Spring in the Carthaginian Tophet (Eighth BABESCH Byvanck Lecture)",
+          "author": "Stager, L.E.",
+          "publisher": "BABESCH Foundation, Leiden",
+          "year": "2014",
+          "url": "https://www.babesch.org/new_site/wp-content/uploads/2023/01/BABESCH_Byvanck_Lecture_2014_Stager.pdf",
+          "kind": "primary"
+        },
+        {
+          "title": "Skeletal remains from Punic Carthage do not support systematic sacrifice of infants",
+          "author": "Schwartz, Houghton, Macchiarelli & Bondioli",
+          "publisher": "PLoS ONE 5(2): e9177",
+          "year": "2010",
+          "url": "https://doi.org/10.1371/journal.pone.0009177",
+          "kind": "peer-reviewed"
+        },
+        {
+          "title": "Animals as offerings: faunal remains from the Carthage tophet (known via S9 only)",
+          "author": "Fulton, Hesse & Burns",
+          "publisher": "Journal of Ancient History 11(2)",
+          "year": "2023",
+          "kind": "peer-reviewed"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C08 (VERIFIED_FACT)."
+    },
+    {
+      "id": "c09",
+      "text": "Some urns held only animal remains; some held a human infant and a lamb together.",
+      "label": "fact",
+      "sources": [
+        {
+          "title": "Rites of Spring in the Carthaginian Tophet (Eighth BABESCH Byvanck Lecture)",
+          "author": "Stager, L.E.",
+          "publisher": "BABESCH Foundation, Leiden",
+          "year": "2014",
+          "url": "https://www.babesch.org/new_site/wp-content/uploads/2023/01/BABESCH_Byvanck_Lecture_2014_Stager.pdf",
+          "kind": "primary"
+        },
+        {
+          "title": "Skeletal remains from Punic Carthage do not support systematic sacrifice of infants",
+          "author": "Schwartz, Houghton, Macchiarelli & Bondioli",
+          "publisher": "PLoS ONE 5(2): e9177",
+          "year": "2010",
+          "url": "https://doi.org/10.1371/journal.pone.0009177",
+          "kind": "peer-reviewed"
+        },
+        {
+          "title": "Review of Garnand & Greene (eds), Infants as votive offerings (Journal of Ancient History 11.2)",
+          "author": "McCarty, M.M.",
+          "publisher": "Bryn Mawr Classical Review 2024.09.08",
+          "year": "2024",
+          "url": "https://bmcr.brynmawr.edu/?p=92573",
+          "kind": "peer-reviewed"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C09 (VERIFIED_FACT). Never narrate counts: published figures conflict."
+    },
+    {
+      "id": "c10",
+      "text": "The 1976-79 American excavation recovered several hundred urns from a trench of about 150 square metres.",
+      "label": "fact",
+      "sources": [
+        {
+          "title": "Rites of Spring in the Carthaginian Tophet (Eighth BABESCH Byvanck Lecture)",
+          "author": "Stager, L.E.",
+          "publisher": "BABESCH Foundation, Leiden",
+          "year": "2014",
+          "url": "https://www.babesch.org/new_site/wp-content/uploads/2023/01/BABESCH_Byvanck_Lecture_2014_Stager.pdf",
+          "kind": "primary"
+        },
+        {
+          "title": "Skeletal remains from Punic Carthage do not support systematic sacrifice of infants",
+          "author": "Schwartz, Houghton, Macchiarelli & Bondioli",
+          "publisher": "PLoS ONE 5(2): e9177",
+          "year": "2010",
+          "url": "https://doi.org/10.1371/journal.pone.0009177",
+          "kind": "peer-reviewed"
+        },
+        {
+          "title": "Review of Garnand & Greene (eds), Infants as votive offerings (Journal of Ancient History 11.2)",
+          "author": "McCarty, M.M.",
+          "publisher": "Bryn Mawr Classical Review 2024.09.08",
+          "year": "2024",
+          "url": "https://bmcr.brynmawr.edu/?p=92573",
+          "kind": "peer-reviewed"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C10 (VERIFIED_FACT). No exact total: 444/445/over 200 appear in sources."
+    },
+    {
+      "id": "c11",
+      "text": "The excavators estimated that as many as 20,000 urns may have been deposited between 400 and 200 BC.",
+      "label": "interpretation",
+      "attribution": "Stager & Wolff 1984",
+      "sources": [
+        {
+          "title": "Child sacrifice at Carthage: religious rite or population control?",
+          "author": "Stager & Wolff",
+          "publisher": "Biblical Archaeology Review 10(1): 30-51",
+          "year": "1984",
+          "kind": "journalism"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C11 (SCHOLARLY_INTERPRETATION). Extrapolation, not a count, and not a count of sacrifices. S14 not read directly. Recommend omitting."
+    },
+    {
+      "id": "c12",
+      "text": "Many stelae carry Punic inscriptions recording a vow to Tanit, Face of Ba'l, and Ba'l Hammon, often ending with a formula meaning the god heard the dedicant's voice and blessed him.",
+      "label": "fact",
+      "sources": [
+        {
+          "title": "Rites of Spring in the Carthaginian Tophet (Eighth BABESCH Byvanck Lecture)",
+          "author": "Stager, L.E.",
+          "publisher": "BABESCH Foundation, Leiden",
+          "year": "2014",
+          "url": "https://www.babesch.org/new_site/wp-content/uploads/2023/01/BABESCH_Byvanck_Lecture_2014_Stager.pdf",
+          "kind": "primary"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C12 (VERIFIED_FACT)."
+    },
+    {
+      "id": "c13",
+      "text": "Some tophet inscriptions use the word 'mlk', which many scholars read as a term for a type of offering rather than the name of a god Moloch.",
+      "label": "interpretation",
+      "attribution": "Eissfeldt 1935 and later scholars (per Stager 2014)",
+      "sources": [
+        {
+          "title": "Rites of Spring in the Carthaginian Tophet (Eighth BABESCH Byvanck Lecture)",
+          "author": "Stager, L.E.",
+          "publisher": "BABESCH Foundation, Leiden",
+          "year": "2014",
+          "url": "https://www.babesch.org/new_site/wp-content/uploads/2023/01/BABESCH_Byvanck_Lecture_2014_Stager.pdf",
+          "kind": "primary"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C13 (SCHOLARLY_INTERPRETATION). Needs specialist epigraphic check; Eissfeldt 1935 not read."
+    },
+    {
+      "id": "c14",
+      "text": "A minority of urns contained beads and amulets placed after cremation, found only with human remains.",
+      "label": "fact",
+      "sources": [
+        {
+          "title": "Rites of Spring in the Carthaginian Tophet (Eighth BABESCH Byvanck Lecture)",
+          "author": "Stager, L.E.",
+          "publisher": "BABESCH Foundation, Leiden",
+          "year": "2014",
+          "url": "https://www.babesch.org/new_site/wp-content/uploads/2023/01/BABESCH_Byvanck_Lecture_2014_Stager.pdf",
+          "kind": "primary"
+        },
+        {
+          "title": "The amulets from the Carthaginian tophet (known via S9 only)",
+          "author": "Degryse et al.",
+          "publisher": "Journal of Ancient History 11(2)",
+          "year": "2023",
+          "kind": "peer-reviewed"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C14 (VERIFIED_FACT). Proportion depends on denominator (S9)."
+    },
+    {
+      "id": "c15",
+      "text": "A 4th-century BC stela shows a priest holding an infant; scholars disagree whether the child is alive (prepared for sacrifice) or already dead.",
+      "label": "interpretation",
+      "attribution": "Stager 2014 (living child) vs Schwartz et al. 2012 (already dead)",
+      "sources": [
+        {
+          "title": "Rites of Spring in the Carthaginian Tophet (Eighth BABESCH Byvanck Lecture)",
+          "author": "Stager, L.E.",
+          "publisher": "BABESCH Foundation, Leiden",
+          "year": "2014",
+          "url": "https://www.babesch.org/new_site/wp-content/uploads/2023/01/BABESCH_Byvanck_Lecture_2014_Stager.pdf",
+          "kind": "primary"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C15 (SCHOLARLY_INTERPRETATION)."
+    },
+    {
+      "id": "c16",
+      "text": "Diodorus Siculus, writing in the 1st century BC, claimed that during a siege in 310 BC the Carthaginians sacrificed 200 children of noble families to Cronus.",
+      "label": "fact",
+      "sources": [
+        {
+          "title": "Library of History 20.14",
+          "author": "Diodorus Siculus",
+          "publisher": "Loeb Classical Library vol. X (1954)",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/20A*.html",
+          "locator": "20.14.4-7",
+          "kind": "primary"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C16 (VERIFIED_FACT). Fact about the text only; the event is unverified."
+    },
+    {
+      "id": "c17",
+      "text": "Plutarch described Carthaginian parents offering children to Cronus, buying children from the poor, and mothers forbidden to weep.",
+      "label": "fact",
+      "sources": [
+        {
+          "title": "De superstitione 13",
+          "author": "Plutarch (trans. F.C. Babbitt)",
+          "publisher": "Loeb Classical Library, Moralia vol. II (1928)",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Moralia/De_superstitione*.html",
+          "locator": "ch. 13",
+          "kind": "primary"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C17 (VERIFIED_FACT). Fact about the text only; moral essay written long after Carthage's fall."
+    },
+    {
+      "id": "c18",
+      "text": "The surviving accounts of Carthaginian child sacrifice were written by Greek and Roman authors, not by Carthaginians.",
+      "label": "fact",
+      "sources": [
+        {
+          "title": "Library of History 20.14",
+          "author": "Diodorus Siculus",
+          "publisher": "Loeb Classical Library vol. X (1954)",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/20A*.html",
+          "locator": "20.14.4-7",
+          "kind": "primary"
+        },
+        {
+          "title": "De superstitione 13",
+          "author": "Plutarch (trans. F.C. Babbitt)",
+          "publisher": "Loeb Classical Library, Moralia vol. II (1928)",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Moralia/De_superstitione*.html",
+          "locator": "ch. 13",
+          "kind": "primary"
+        },
+        {
+          "title": "Skeletal remains from Punic Carthage do not support systematic sacrifice of infants",
+          "author": "Schwartz, Houghton, Macchiarelli & Bondioli",
+          "publisher": "PLoS ONE 5(2): e9177",
+          "year": "2010",
+          "url": "https://doi.org/10.1371/journal.pone.0009177",
+          "kind": "peer-reviewed"
+        },
+        {
+          "title": "Were living children sacrificed to the gods? No",
+          "author": "Fantar, M.H.",
+          "publisher": "Archaeology Odyssey, Nov/Dec 2000",
+          "year": "2000",
+          "url": "https://library.biblicalarchaeology.org/?p=69673",
+          "kind": "journalism"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C18 (VERIFIED_FACT)."
+    },
+    {
+      "id": "c19",
+      "text": "Tophets are known at Phoenician and Punic sites in North Africa, Sicily and Sardinia, but no convincing example is known in the Phoenician homeland.",
+      "label": "fact",
+      "sources": [
+        {
+          "title": "The Levantine roots of the tophet sanctuary",
+          "author": "Xella, P.",
+          "publisher": "Journal of Ancient History 11(2): 291-303",
+          "year": "2023",
+          "url": "https://doi.org/10.1515/jah-2023-0015",
+          "kind": "peer-reviewed"
+        },
+        {
+          "title": "Rites of Spring in the Carthaginian Tophet (Eighth BABESCH Byvanck Lecture)",
+          "author": "Stager, L.E.",
+          "publisher": "BABESCH Foundation, Leiden",
+          "year": "2014",
+          "url": "https://www.babesch.org/new_site/wp-content/uploads/2023/01/BABESCH_Byvanck_Lecture_2014_Stager.pdf",
+          "kind": "primary"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C19 (VERIFIED_FACT). Based on S10 abstract and S7 map."
+    },
+    {
+      "id": "c20",
+      "text": "Whether the tophet tradition came from the Phoenician homeland or developed in the western colonies is debated.",
+      "label": "open-question",
+      "sources": [
+        {
+          "title": "The Levantine roots of the tophet sanctuary",
+          "author": "Xella, P.",
+          "publisher": "Journal of Ancient History 11(2): 291-303",
+          "year": "2023",
+          "url": "https://doi.org/10.1515/jah-2023-0015",
+          "kind": "peer-reviewed"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C20 (UNRESOLVED_QUESTION)."
+    },
+    {
+      "id": "c21",
+      "text": "Two teams of specialists analysed cremated remains from the same 1976-79 excavations and reached opposite conclusions.",
+      "label": "fact",
+      "sources": [
+        {
+          "title": "Age estimations attest to infant sacrifice at the Carthage Tophet",
+          "author": "Smith, Stager, Greene & Avishai",
+          "publisher": "Antiquity 87(338): 1191-1199",
+          "year": "2013",
+          "url": "https://doi.org/10.1017/S0003598X00049954",
+          "kind": "peer-reviewed"
+        },
+        {
+          "title": "Skeletal remains from Punic Carthage do not support systematic sacrifice of infants",
+          "author": "Schwartz, Houghton, Macchiarelli & Bondioli",
+          "publisher": "PLoS ONE 5(2): e9177",
+          "year": "2010",
+          "url": "https://doi.org/10.1371/journal.pone.0009177",
+          "kind": "peer-reviewed"
+        },
+        {
+          "title": "Aging cremated infants: the problem of sacrifice at the Tophet of Carthage",
+          "author": "Smith, Avishai, Greene & Stager",
+          "publisher": "Antiquity 85(329): 859-874",
+          "year": "2011",
+          "url": "https://doi.org/10.1017/S0003598X00068368",
+          "kind": "peer-reviewed"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C21 (VERIFIED_FACT)."
+    },
+    {
+      "id": "c22",
+      "text": "Schwartz and colleagues argue the infants' age profile matches natural perinatal mortality and that tophets were burial places for those who died shortly before or after birth, without ruling out occasional sacrifice.",
+      "label": "interpretation",
+      "attribution": "Schwartz et al. 2010, 2012, 2017",
+      "sources": [
+        {
+          "title": "Skeletal remains from Punic Carthage do not support systematic sacrifice of infants",
+          "author": "Schwartz, Houghton, Macchiarelli & Bondioli",
+          "publisher": "PLoS ONE 5(2): e9177",
+          "year": "2010",
+          "url": "https://doi.org/10.1371/journal.pone.0009177",
+          "kind": "peer-reviewed"
+        },
+        {
+          "title": "Bones, teeth, and estimating age of perinates: Carthaginian infant sacrifice revisited",
+          "author": "Schwartz, Houghton, Bondioli & Macchiarelli",
+          "publisher": "Antiquity 86(333): 738-745",
+          "year": "2012",
+          "url": "https://doi.org/10.1017/S0003598X00047888",
+          "kind": "peer-reviewed"
+        },
+        {
+          "title": "Two tales of one city: data, inference and Carthaginian infant sacrifice",
+          "author": "Schwartz, Houghton, Bondioli & Macchiarelli",
+          "publisher": "Antiquity 91(356): 442-454",
+          "year": "2017",
+          "url": "https://doi.org/10.15184/aqy.2016.270",
+          "kind": "peer-reviewed"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C22 (SCHOLARLY_INTERPRETATION)."
+    },
+    {
+      "id": "c23",
+      "text": "Smith and colleagues concluded most infants died at about one to one and a half months old, a profile they argue supports sacrifice.",
+      "label": "interpretation",
+      "attribution": "Smith et al. 2011, 2013",
+      "sources": [
+        {
+          "title": "Aging cremated infants: the problem of sacrifice at the Tophet of Carthage",
+          "author": "Smith, Avishai, Greene & Stager",
+          "publisher": "Antiquity 85(329): 859-874",
+          "year": "2011",
+          "url": "https://doi.org/10.1017/S0003598X00068368",
+          "kind": "peer-reviewed"
+        },
+        {
+          "title": "Age estimations attest to infant sacrifice at the Carthage Tophet",
+          "author": "Smith, Stager, Greene & Avishai",
+          "publisher": "Antiquity 87(338): 1191-1199",
+          "year": "2013",
+          "url": "https://doi.org/10.1017/S0003598X00049954",
+          "kind": "peer-reviewed"
+        },
+        {
+          "title": "Rites of Spring in the Carthaginian Tophet (Eighth BABESCH Byvanck Lecture)",
+          "author": "Stager, L.E.",
+          "publisher": "BABESCH Foundation, Leiden",
+          "year": "2014",
+          "url": "https://www.babesch.org/new_site/wp-content/uploads/2023/01/BABESCH_Byvanck_Lecture_2014_Stager.pdf",
+          "kind": "primary"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C23 (SCHOLARLY_INTERPRETATION)."
+    },
+    {
+      "id": "c24",
+      "text": "The disagreement turns on method: cremation shrinkage of bones and teeth, whether cremation erases the neonatal line, and which bones and standards to use.",
+      "label": "fact",
+      "sources": [
+        {
+          "title": "Skeletal remains from Punic Carthage do not support systematic sacrifice of infants",
+          "author": "Schwartz, Houghton, Macchiarelli & Bondioli",
+          "publisher": "PLoS ONE 5(2): e9177",
+          "year": "2010",
+          "url": "https://doi.org/10.1371/journal.pone.0009177",
+          "kind": "peer-reviewed"
+        },
+        {
+          "title": "Two tales of one city: data, inference and Carthaginian infant sacrifice",
+          "author": "Schwartz, Houghton, Bondioli & Macchiarelli",
+          "publisher": "Antiquity 91(356): 442-454",
+          "year": "2017",
+          "url": "https://doi.org/10.15184/aqy.2016.270",
+          "kind": "peer-reviewed"
+        },
+        {
+          "title": "Rites of Spring in the Carthaginian Tophet (Eighth BABESCH Byvanck Lecture)",
+          "author": "Stager, L.E.",
+          "publisher": "BABESCH Foundation, Leiden",
+          "year": "2014",
+          "url": "https://www.babesch.org/new_site/wp-content/uploads/2023/01/BABESCH_Byvanck_Lecture_2014_Stager.pdf",
+          "kind": "primary"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C24 (VERIFIED_FACT)."
+    },
+    {
+      "id": "c25",
+      "text": "Schwartz et al. found a neonatal line, which forms only if a baby survives birth by some days, in 24 of 50 individuals sampled.",
+      "label": "fact",
+      "sources": [
+        {
+          "title": "Skeletal remains from Punic Carthage do not support systematic sacrifice of infants",
+          "author": "Schwartz, Houghton, Macchiarelli & Bondioli",
+          "publisher": "PLoS ONE 5(2): e9177",
+          "year": "2010",
+          "url": "https://doi.org/10.1371/journal.pone.0009177",
+          "kind": "peer-reviewed"
+        },
+        {
+          "title": "Rites of Spring in the Carthaginian Tophet (Eighth BABESCH Byvanck Lecture)",
+          "author": "Stager, L.E.",
+          "publisher": "BABESCH Foundation, Leiden",
+          "year": "2014",
+          "url": "https://www.babesch.org/new_site/wp-content/uploads/2023/01/BABESCH_Byvanck_Lecture_2014_Stager.pdf",
+          "kind": "primary"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C25 (VERIFIED_FACT). Interpretation disputed: cremation may erase the line."
+    },
+    {
+      "id": "c26",
+      "text": "Supporters of sacrifice argue that inscriptions recording fulfilled vows imply deliberate offerings, unlikely for babies who had already died.",
+      "label": "interpretation",
+      "attribution": "Stager 2014",
+      "sources": [
+        {
+          "title": "Rites of Spring in the Carthaginian Tophet (Eighth BABESCH Byvanck Lecture)",
+          "author": "Stager, L.E.",
+          "publisher": "BABESCH Foundation, Leiden",
+          "year": "2014",
+          "url": "https://www.babesch.org/new_site/wp-content/uploads/2023/01/BABESCH_Byvanck_Lecture_2014_Stager.pdf",
+          "kind": "primary"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C26 (SCHOLARLY_INTERPRETATION)."
+    },
+    {
+      "id": "c27",
+      "text": "Because lambs were treated like infants, sometimes on the same pyre, some scholars argue animals and infants were equivalent offerings.",
+      "label": "interpretation",
+      "attribution": "Stager 2014; Fulton et al. 2023",
+      "sources": [
+        {
+          "title": "Rites of Spring in the Carthaginian Tophet (Eighth BABESCH Byvanck Lecture)",
+          "author": "Stager, L.E.",
+          "publisher": "BABESCH Foundation, Leiden",
+          "year": "2014",
+          "url": "https://www.babesch.org/new_site/wp-content/uploads/2023/01/BABESCH_Byvanck_Lecture_2014_Stager.pdf",
+          "kind": "primary"
+        },
+        {
+          "title": "Animals as offerings: faunal remains from the Carthage tophet (known via S9 only)",
+          "author": "Fulton, Hesse & Burns",
+          "publisher": "Journal of Ancient History 11(2)",
+          "year": "2023",
+          "kind": "peer-reviewed"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C27 (SCHOLARLY_INTERPRETATION). Also compatible with an animal offering accompanying a natural death."
+    },
+    {
+      "id": "c28",
+      "text": "Infants are rare in Carthage's ordinary cemeteries; both sides agree on this but disagree on what it means.",
+      "label": "fact",
+      "sources": [
+        {
+          "title": "Rites of Spring in the Carthaginian Tophet (Eighth BABESCH Byvanck Lecture)",
+          "author": "Stager, L.E.",
+          "publisher": "BABESCH Foundation, Leiden",
+          "year": "2014",
+          "url": "https://www.babesch.org/new_site/wp-content/uploads/2023/01/BABESCH_Byvanck_Lecture_2014_Stager.pdf",
+          "kind": "primary"
+        },
+        {
+          "title": "Two tales of one city: data, inference and Carthaginian infant sacrifice",
+          "author": "Schwartz, Houghton, Bondioli & Macchiarelli",
+          "publisher": "Antiquity 91(356): 442-454",
+          "year": "2017",
+          "url": "https://doi.org/10.15184/aqy.2016.270",
+          "kind": "peer-reviewed"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C28 (VERIFIED_FACT)."
+    },
+    {
+      "id": "c29",
+      "text": "A 2024 independent review concluded the interpretation of the Carthage tophet remains as uncertain as ever; the final report of the 1970s excavations is unpublished.",
+      "label": "fact",
+      "sources": [
+        {
+          "title": "Review of Garnand & Greene (eds), Infants as votive offerings (Journal of Ancient History 11.2)",
+          "author": "McCarty, M.M.",
+          "publisher": "Bryn Mawr Classical Review 2024.09.08",
+          "year": "2024",
+          "url": "https://bmcr.brynmawr.edu/?p=92573",
+          "kind": "peer-reviewed"
+        },
+        {
+          "title": "Rites of Spring in the Carthaginian Tophet (Eighth BABESCH Byvanck Lecture)",
+          "author": "Stager, L.E.",
+          "publisher": "BABESCH Foundation, Leiden",
+          "year": "2014",
+          "url": "https://www.babesch.org/new_site/wp-content/uploads/2023/01/BABESCH_Byvanck_Lecture_2014_Stager.pdf",
+          "kind": "primary"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C29 (VERIFIED_FACT)."
+    },
+    {
+      "id": "c30",
+      "text": "A 2024 study of 12 cremated children from the Zita tophet in Tunisia found hard lives, careful burial and no concrete indication of sacrifice, without deciding between cemetery and sacrificial site.",
+      "label": "fact",
+      "sources": [
+        {
+          "title": "The life and death of cremated infants and children from the Neo-Punic tophet at Zita, Tunisia",
+          "author": "Cerezo-Roman et al.",
+          "publisher": "Antiquity 98(400): 936-953",
+          "year": "2024",
+          "url": "https://doi.org/10.15184/aqy.2024.85",
+          "kind": "peer-reviewed"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C30 (VERIFIED_FACT). Applies to Zita, not Carthage."
+    },
+    {
+      "id": "c31",
+      "text": "Stager proposed the offerings were made periodically in spring, based on the ages of the lambs.",
+      "label": "hypothesis",
+      "sources": [
+        {
+          "title": "Rites of Spring in the Carthaginian Tophet (Eighth BABESCH Byvanck Lecture)",
+          "author": "Stager, L.E.",
+          "publisher": "BABESCH Foundation, Leiden",
+          "year": "2014",
+          "url": "https://www.babesch.org/new_site/wp-content/uploads/2023/01/BABESCH_Byvanck_Lecture_2014_Stager.pdf",
+          "kind": "primary"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C31 (HYPOTHESIS)."
+    },
+    {
+      "id": "c32",
+      "text": "Whether the infants buried in the Carthage tophet were sacrificed - all, some or none - remains unresolved.",
+      "label": "open-question",
+      "sources": [
+        {
+          "title": "Review of Garnand & Greene (eds), Infants as votive offerings (Journal of Ancient History 11.2)",
+          "author": "McCarty, M.M.",
+          "publisher": "Bryn Mawr Classical Review 2024.09.08",
+          "year": "2024",
+          "url": "https://bmcr.brynmawr.edu/?p=92573",
+          "kind": "peer-reviewed"
+        },
+        {
+          "title": "The life and death of cremated infants and children from the Neo-Punic tophet at Zita, Tunisia",
+          "author": "Cerezo-Roman et al.",
+          "publisher": "Antiquity 98(400): 936-953",
+          "year": "2024",
+          "url": "https://doi.org/10.15184/aqy.2024.85",
+          "kind": "peer-reviewed"
+        },
+        {
+          "title": "Aging cremated infants: the problem of sacrifice at the Tophet of Carthage",
+          "author": "Smith, Avishai, Greene & Stager",
+          "publisher": "Antiquity 85(329): 859-874",
+          "year": "2011",
+          "url": "https://doi.org/10.1017/S0003598X00068368",
+          "kind": "peer-reviewed"
+        },
+        {
+          "title": "Two tales of one city: data, inference and Carthaginian infant sacrifice",
+          "author": "Schwartz, Houghton, Bondioli & Macchiarelli",
+          "publisher": "Antiquity 91(356): 442-454",
+          "year": "2017",
+          "url": "https://doi.org/10.15184/aqy.2016.270",
+          "kind": "peer-reviewed"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C32 (UNRESOLVED_QUESTION)."
+    },
+    {
+      "id": "c33",
+      "text": "If sacrifice took place, whether it was routine or reserved for crises is unresolved.",
+      "label": "open-question",
+      "sources": [
+        {
+          "title": "Rites of Spring in the Carthaginian Tophet (Eighth BABESCH Byvanck Lecture)",
+          "author": "Stager, L.E.",
+          "publisher": "BABESCH Foundation, Leiden",
+          "year": "2014",
+          "url": "https://www.babesch.org/new_site/wp-content/uploads/2023/01/BABESCH_Byvanck_Lecture_2014_Stager.pdf",
+          "kind": "primary"
+        },
+        {
+          "title": "Library of History 20.14",
+          "author": "Diodorus Siculus",
+          "publisher": "Loeb Classical Library vol. X (1954)",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/20A*.html",
+          "locator": "20.14.4-7",
+          "kind": "primary"
+        }
+      ],
+      "verified": false,
+      "notes": "Register C33 (UNRESOLVED_QUESTION)."
     }
   ]
 }

@@ -78,6 +78,7 @@ if (claims) {
     claimById.set(c.id, c);
     if (hasTodo(c.text)) p2.push(`claim "${c.id}" text still TODO`);
     if (c.label !== "speculation" && c.sources.length === 0) p2.push(`claim "${c.id}" (${c.label}) has no sources`);
+    // Attribution presence for interpretations is enforced by the schema (claim refine).
     if (!c.verified) p2.push(`claim "${c.id}" not marked verified by a human`);
   }
 }
@@ -106,6 +107,8 @@ if (sb) {
     const c = claimById.get(s.claimId);
     if (!c) p5.push(`scene "${s.name}" references unknown claim "${s.claimId}"`);
     else if (c.label !== s.label) p5.push(`scene "${s.name}" label "${s.label}" ≠ claim label "${c.label}"`);
+    else if (c.label === "interpretation" && s.attribution?.trim() !== c.attribution?.trim())
+      p5.push(`scene "${s.name}" attribution "${s.attribution ?? ""}" ≠ claim attribution "${c.attribution}"`);
   }
   const secs = sb.scenes.reduce((t, s) => t + s.durationInSeconds, 0);
   const [min, max] = sb.format === "short" ? [35, 60] : [480, 720];

@@ -3,6 +3,7 @@ import type { ClaimLabel } from "../schema/production";
 
 const TEXT: Record<ClaimLabel, string | null> = {
   fact: null, // verified facts need no badge
+  interpretation: null, // shown as an attribution line instead (see Statement)
   "open-question": "Unresolved question",
   hypothesis: "Hypothesis",
   speculation: "Speculation",

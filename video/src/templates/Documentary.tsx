@@ -38,7 +38,14 @@ const SceneView: React.FC<{ scene: Scene }> = ({ scene }) => {
     case "title":
       return <TitleCard kicker={scene.kicker} heading={scene.heading} />;
     case "statement":
-      return <Statement text={scene.text} label={scene.label} sourceNote={scene.sourceNote} />;
+      return (
+        <Statement
+          text={scene.text}
+          label={scene.label}
+          attribution={scene.attribution}
+          sourceNote={scene.sourceNote}
+        />
+      );
     case "image":
       return (
         <ImageScene

@@ -28,6 +28,7 @@ npx remotion render LongForm --props=../productions/<slug>/storyboard.json out/<
 
 ## Claim labels
 - `fact`: verified, no on-screen badge
+- `interpretation`: a contested reading held by named scholars. It needs an `attribution` (e.g. "Smith et al. 2011, 2013") on the claim and on the scene, and the two must match. It shows "Interpretation" plus the attribution, and narration must name who holds the view.
 - `open-question`: badge "Unresolved question"
 - `hypothesis`: badge "Hypothesis"
 - `speculation`: badge "Speculation"; must also be phrased as speculation in narration

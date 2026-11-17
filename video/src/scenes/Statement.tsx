@@ -4,9 +4,9 @@ import type { ClaimLabel } from "../schema/production";
 import { Backdrop } from "./Backdrop";
 import { LabelBadge } from "./LabelBadge";
 
-type Props = { text: string; label: ClaimLabel | null; sourceNote?: string };
+type Props = { text: string; label: ClaimLabel | null; attribution?: string; sourceNote?: string };
 
-export const Statement: React.FC<Props> = ({ text, label, sourceNote }) => {
+export const Statement: React.FC<Props> = ({ text, label, attribution, sourceNote }) => {
   const frame = useCurrentFrame();
   const { fps, width, height } = useVideoConfig();
   const s = scaleFor(width, height);
@@ -31,6 +31,25 @@ export const Statement: React.FC<Props> = ({ text, label, sourceNote }) => {
         <div style={{ opacity: fade }}>
           <LabelBadge label={label} s={s} />
         </div>
+        {label === "interpretation" && attribution ? (
+          <div style={{ opacity: fade, display: "flex", flexDirection: "column", alignItems: "center", gap: 10 * s }}>
+            <div
+              style={{
+                fontFamily: fonts.sans,
+                fontWeight: 600,
+                fontSize: 26 * s,
+                letterSpacing: "0.24em",
+                textTransform: "uppercase",
+                color: colors.gold,
+              }}
+            >
+              Interpretation
+            </div>
+            <div style={{ fontFamily: fonts.sans, fontWeight: 500, fontSize: 34 * s, color: colors.mist }}>
+              {attribution}
+            </div>
+          </div>
+        ) : null}
         <div
           style={{
             fontFamily: fonts.serif,

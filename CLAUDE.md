@@ -4,7 +4,7 @@ English-language cinematic documentary brand. Tagline: *There is more to reality
 Editorial philosophy: **Mystery without misinformation.**
 
 ## Editorial rules (non-negotiable)
-- Every factual claim is labelled as one of: `fact` (verified), `open-question` (unresolved, evidence-backed), `hypothesis` (scholarly/scientific proposal), `speculation` (must be flagged as such on screen/in narration).
+- Every factual claim is labelled as one of: `fact` (verified), `interpretation` (contested reading by named scholars, always attributed on screen and in narration), `open-question` (unresolved, evidence-backed), `hypothesis` (specific proposed explanation), `speculation` (must be flagged as such on screen/in narration).
 - Never present speculation as fact. Never invent sources, citations, quotes, statistics or evidence.
 - Every factual claim keeps a source reference. Prefer primary sources and peer-reviewed or institutional publications.
 - AI-generated reconstructions are labelled as reconstructions and never passed off as archival footage.
